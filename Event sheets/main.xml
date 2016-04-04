@@ -2,5 +2,17 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>main</name>
-    <events />
+    <events>
+        <comment>Keith&apos;s added code</comment>
+        <event-block sid="6569421888262956">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4649446608376349" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="6027779113131822" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

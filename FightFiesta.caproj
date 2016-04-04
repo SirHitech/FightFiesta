@@ -44,6 +44,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>main.xml</event-sheet>
+        <event-sheet>game.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
