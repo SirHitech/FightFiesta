@@ -3,15 +3,31 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>main</name>
     <events>
-        <comment>Keith&apos;s added code</comment>
-        <event-block sid="6569421888262956">
+        <event-block sid="7005234153291492">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="4649446608376349" type="System" />
+                <condition id="-2" name="On start of layout" sid="1602834765900844" type="System" />
             </conditions>
             <actions>
-                <action id="-16" name="Wait" sid="6027779113131822" type="System">
-                    <param id="0" name="Seconds">1.0</param>
+                <action id="0" name="Spawn another object" sid="8170148369231149" type="Sprite2">
+                    <param id="0" name="Object">Sprite</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="8363068562525407">
+            <conditions>
+                <condition id="9" name="Is overlapping at offset" sid="4504465923165603" type="Sprite">
+                    <param id="0" name="Object">Sprite3</param>
+                    <param id="1" name="Offset X">0</param>
+                    <param id="2" name="Offset Y">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="1069413202831525" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action behavior="Platform2" id="12" name="Fall through" sid="7464936063627104" type="Sprite" />
             </actions>
         </event-block>
     </events>
