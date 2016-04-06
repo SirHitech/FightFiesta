@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Movement</name>
+    <events>
+        <comment>Left and Right</comment>
+        <event-block sid="808208571631622">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="5776095124483364" type="Characters">
+                    <param id="0" name="Instance variable">holdingLeft</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="2412074279111964" type="Characters">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1793512578468464">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="288406312824524" type="Characters">
+                    <param id="0" name="Instance variable">holdingRight</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="4133459978567858" type="Characters">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Jumping</comment>
+        <event-block sid="7276027121310844">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="8613305476913453" type="Characters">
+                    <param id="0" name="Instance variable">holdingUp</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="7204967193018972" type="Characters">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

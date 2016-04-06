@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>game</name>
-    <events />
+    <name>Game</name>
+    <events>
+        <include>Controls</include>
+        <include>Movement</include>
+        <comment>TESTING</comment>
+        <event-block sid="1148830114633115">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1990559424807245" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="6023342960017644" type="SpawnPlatform">
+                    <param id="0" name="Object">testChar</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="8623104175762054" type="testChar">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

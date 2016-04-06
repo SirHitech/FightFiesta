@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Controls</name>
+    <events>
+        <comment>Player 1 controls</comment>
+        <event-block sid="3127197823075237">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7019682881979184" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="2793426578040941" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="4552123208820008" type="Characters">
+                    <param id="0" name="Instance variable">holdingLeft</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="15980796130316">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7696752827916527" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="2029798026867914" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="2817325672473313" type="Characters">
+                    <param id="0" name="Instance variable">holdingRight</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5656975690263986">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5736482014536742" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="576207649986769" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="6694746004424432" type="Characters">
+                    <param id="0" name="Instance variable">holdingUp</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8755466968906158">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7196748967224023" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="6381433093271268" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8817676081628801" type="Characters">
+                    <param id="0" name="Instance variable">holdingDown</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5490493547639733">
+            <conditions>
+                <condition id="3" name="On key released" sid="3862257639706735" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3677081164641198" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="3029627022116325" type="Characters">
+                    <param id="0" name="Instance variable">holdingLeft</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9251197623533456">
+            <conditions>
+                <condition id="3" name="On key released" sid="4697924050340743" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="8894082692816581" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="2071467330548707" type="Characters">
+                    <param id="0" name="Instance variable">holdingRight</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8725886269780853">
+            <conditions>
+                <condition id="3" name="On key released" sid="8642510891481786" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="1689720719475829" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="7614094371671118" type="Characters">
+                    <param id="0" name="Instance variable">holdingUp</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6578172870403983">
+            <conditions>
+                <condition id="3" name="On key released" sid="2734704014874201" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3383248130486282" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="9123845724069068" type="Characters">
+                    <param id="0" name="Instance variable">holdingDown</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
