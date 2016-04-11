@@ -12,10 +12,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">startMenu</layout>
         <layout order="1">allCharacters</layout>
-        <layout order="5">stage1</layout>
-        <event-sheet active="1" order="2">Movement</event-sheet>
-        <event-sheet order="4">Game</event-sheet>
+        <layout active="1" order="5">stage1</layout>
+        <event-sheet order="2">Movement</event-sheet>
         <event-sheet order="3">Controls</event-sheet>
+        <event-sheet order="4">Game</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -32,12 +32,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/characters/" />
         <folder expanded="1" path="object-folder/stage tiles/" />
         <folder expanded="1" path="object-folder/hitboxes/" />
+        <folder expanded="1" path="object-folder/platforms/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/testChar/" />
         <folder expanded="1" path="animation-folder/hitbox01/" />
         <folder expanded="1" path="animation-folder/SpawnPlatform/" />
