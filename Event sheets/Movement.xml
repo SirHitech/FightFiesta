@@ -3,43 +3,192 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Movement</name>
     <events>
-        <comment>Left and Right</comment>
-        <event-block sid="808208571631622">
+        <comment>If not in hitstun</comment>
+        <event-block sid="9277638000351247">
             <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="5776095124483364" type="Characters">
-                    <param id="0" name="Instance variable">holdingLeft</param>
+                <condition id="-7" name="Compare instance variable" sid="8606619030365908" type="Characters">
+                    <param id="0" name="Instance variable">hitstun</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="2412074279111964" type="Characters">
-                    <param id="0" name="Control">0</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <comment>Crouching</comment>
+                <event-block sid="5392029104134339">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="3736372966530257" type="Characters">
+                            <param id="0" name="Instance variable">holdingDown</param>
+                        </condition>
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="5013408052742163" type="Characters" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="911062178016067" type="Characters">
+                            <param id="0" name="Animation">&quot;Crouching&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="489572117179169">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="8798323865393274" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>Left and Right</comment>
+                        <event-block sid="3968628182746263">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="4275552097320597" type="Characters">
+                                    <param id="0" name="Instance variable">holdingLeft</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="6204723290448636" type="Characters">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="576294660212215">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="6699819274908809" type="Characters">
+                                    <param id="0" name="Instance variable">holdingRight</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="8971943482263724" type="Characters">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Jumping</comment>
+                        <event-block sid="8565547249543719">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="5150515033282431" type="Characters">
+                                    <param id="0" name="Instance variable">holdingUp</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="5746763610142963" type="Characters">
+                                    <param id="0" name="Control">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
         </event-block>
-        <event-block sid="1793512578468464">
+        <comment>Face the other guy</comment>
+        <event-block sid="6807629789048368">
             <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="288406312824524" type="Characters">
-                    <param id="0" name="Instance variable">holdingRight</param>
-                </condition>
+                <condition id="-1" name="Every tick" sid="8851710807995459" type="System" />
             </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="4133459978567858" type="Characters">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <comment>Jumping</comment>
-        <event-block sid="7276027121310844">
-            <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="8613305476913453" type="Characters">
-                    <param id="0" name="Instance variable">holdingUp</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="7204967193018972" type="Characters">
-                    <param id="0" name="Control">2</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="x1" sid="5031815022454294" static="0" type="number">0</variable>
+                <variable constant="0" name="x2" sid="2998578455505476" static="0" type="number">0</variable>
+                <event-block sid="7829342919758726">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4963224743969615" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6089031227190134" type="System">
+                            <param id="0" name="Variable">x1</param>
+                            <param id="1" name="Value">Characters.X</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4873826324777759">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8324670941013845" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6784106573565314" type="System">
+                            <param id="0" name="Variable">x2</param>
+                            <param id="1" name="Value">Characters.X</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3281045501407711">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3813707867456164" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1452347334019941">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4618798492133968" type="System">
+                                    <param id="0" name="Variable">x1</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">x2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="5917694257671087" type="Characters">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9898739010028615">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="1967529385541578" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="6581181924533693" type="Characters">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7812697828342129">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7519474913759413" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4969929875504747">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5555382392858261" type="System">
+                                    <param id="0" name="Variable">x1</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">x2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="4874987745561647" type="Characters">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8282591452221171">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="8408488567567127" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="605048963042328" type="Characters">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

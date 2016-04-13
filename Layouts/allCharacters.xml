@@ -44,6 +44,7 @@
                         <attacking>false</attacking>
                         <hitstun>0</hitstun>
                         <player>0</player>
+                        <smashMeter>0</smashMeter>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -64,7 +65,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>226</x>
+                        <x>216</x>
                         <y>181</y>
                         <z>0</z>
                         <width>48</width>
@@ -95,6 +96,76 @@
                         <z>0</z>
                         <width>27</width>
                         <height>26</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="testChar2" uid="10">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <holdingLeft>false</holdingLeft>
+                        <holdingRight>false</holdingRight>
+                        <holdingUp>false</holdingUp>
+                        <holdingDown>false</holdingDown>
+                        <attacking>false</attacking>
+                        <hitstun>0</hitstun>
+                        <player>0</player>
+                        <smashMeter>0</smashMeter>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>330</max-speed>
+                                <acceleration>1500</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Enabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>590</x>
+                        <y>169</y>
+                        <z>0</z>
+                        <width>-48</width>
+                        <height>132</height>
+                        <depth>0</depth>
+                        <hotspotX>0.479166657</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite" uid="12">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>497</x>
+                        <y>433</y>
+                        <z>0</z>
+                        <width>286</width>
+                        <height>500</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

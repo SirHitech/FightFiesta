@@ -32,6 +32,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>stage1</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -56,6 +57,10 @@
                     <animation framecount="2" loop="1" name="Standing" pingpong="0" repeatcount="1" repeatto="0" sid="8828430743052504" speed="2">
                         <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="2" loop="0" name="Crouching" pingpong="0" repeatcount="1" repeatto="0" sid="9830756147453899" speed="2">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.80303" />
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.80303" />
                     </animation>
                     <animation framecount="6" loop="1" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="2599747550881805" speed="10">
                         <frame duration="1" hotspotX="0.476923" hotspotY="0.492424" />
@@ -212,6 +217,168 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="testChar2" sid="5746208995271046">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="Standing" pingpong="0" repeatcount="1" repeatto="0" sid="3438538295692394" speed="2">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="6" loop="1" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="9565768313042861" speed="10">
+                        <frame duration="1" hotspotX="0.476923" hotspotY="0.492424" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="1217371261292283" speed="2">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="7" loop="0" name="LHigh" pingpong="0" repeatcount="1" repeatto="0" sid="5387823377174981" speed="30">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.403509" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.359375" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.323944" hotspotY="0.5">
+                            <image-point name="Hitbox" x="0.929577" y="0.507576" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.323944" hotspotY="0.5">
+                            <image-point name="Hitbox" x="0.929577" y="0.507576" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.403509" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="LLow" pingpong="0" repeatcount="1" repeatto="0" sid="2374503676565308" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.495798" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.415929">
+                            <image-point name="Hitbox" x="0.862385" y="0.823009" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.415929">
+                            <image-point name="Hitbox" x="0.862385" y="0.823009" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.509091" hotspotY="0.47619" />
+                    </animation>
+                    <animation framecount="12" loop="0" name="HHigh" pingpong="0" repeatcount="1" repeatto="0" sid="6014480944148393" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.445378" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.435897" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.421053" />
+                        <frame duration="1" hotspotX="0.50505" hotspotY="0.410714" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4">
+                            <image-point name="Hitbox" x="0.886792" y="0.481818" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4">
+                            <image-point name="Hitbox" x="0.886792" y="0.481818" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.421053" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.509091" hotspotY="0.47619" />
+                    </animation>
+                    <animation framecount="13" loop="0" name="HLow" pingpong="0" repeatcount="1" repeatto="0" sid="7555921554401494" speed="30">
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.504202" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.504425" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.504425" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.504202" />
+                        <frame duration="1" hotspotX="0.510204" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="8" loop="0" name="LAir" pingpong="0" repeatcount="1" repeatto="0" sid="6708692605811959" speed="30">
+                        <frame duration="1" hotspotX="0.438596" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.431034" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.390625" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.367647" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.926471" y="0.41129" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.347222" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.930556" y="0.491935" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.373134" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.955224" y="0.629032" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.423729" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.471698" hotspotY="0.532258" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="HAir" pingpong="0" repeatcount="1" repeatto="0" sid="5685145840957532" speed="30">
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="stage tiles">
             <object-type name="Background1" sid="9695385204637594">
@@ -247,6 +414,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="SpawnPlatform2" sid="1322569399046856">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6857456733403785" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="-0.678571" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Keyboard" sid="34460151117082">
             <plugin id="Keyboard" />
@@ -263,11 +438,29 @@
         <object-type name="Audio" sid="7326488668684242">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="Sprite" sid="7177716042750463">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8822407789568164" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\Punch\Punch_009.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Characters" plugin-id="Sprite" sid="133386739793042">
             <members>
                 <member>testChar</member>
+                <member>testChar2</member>
             </members>
             <instance-variables>
                 <instance-variable name="holdingLeft" sid="1929856627992251" type="boolean" />
@@ -277,6 +470,7 @@
                 <instance-variable name="attacking" sid="1766745771354642" type="boolean" />
                 <instance-variable name="hitstun" sid="1091958976665778" type="number" />
                 <instance-variable name="player" sid="1541072889687875" type="number" />
+                <instance-variable name="smashMeter" sid="6238530580286978" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="3905198753013624">

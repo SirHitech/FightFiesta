@@ -5,20 +5,28 @@
     <events>
         <include>Controls</include>
         <include>Movement</include>
-        <comment>TESTING</comment>
-        <event-block sid="1148830114633115">
+        <event-block sid="1536244234274587">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="1990559424807245" type="System" />
+                <condition id="-2" name="On start of layout" sid="4356655428399539" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Spawn another object" sid="6023342960017644" type="SpawnPlatform">
+                <action id="0" name="Spawn another object" sid="6920614528630591" type="SpawnPlatform">
                     <param id="0" name="Object">testChar</param>
-                    <param id="1" name="Layer">3</param>
+                    <param id="1" name="Layer">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>
-                <action id="-10" name="Set value" sid="8623104175762054" type="testChar">
+                <action id="0" name="Spawn another object" sid="2724263964224706" type="SpawnPlatform2">
+                    <param id="0" name="Object">testChar2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="335707585672809" type="testChar">
                     <param id="0" name="Instance variable">player</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="2522855550817825" type="testChar2">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Value">2</param>
                 </action>
             </actions>
         </event-block>
