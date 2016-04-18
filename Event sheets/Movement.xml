@@ -12,68 +12,71 @@
                     <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="4" name="Set animation" sid="5206525643286719" type="Characters">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
             <sub-events>
-                <comment>Crouching</comment>
-                <event-block sid="5392029104134339">
+                <comment>Left and Right</comment>
+                <event-block sid="3968628182746263">
                     <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="3736372966530257" type="Characters">
-                            <param id="0" name="Instance variable">holdingDown</param>
+                        <condition id="-8" name="Is boolean instance variable set" sid="4275552097320597" type="Characters">
+                            <param id="0" name="Instance variable">holdingLeft</param>
                         </condition>
-                        <condition behavior="Platform" id="2" name="Is on floor" sid="5013408052742163" type="Characters" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="911062178016067" type="Characters">
-                            <param id="0" name="Animation">&quot;Crouching&quot;</param>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="6204723290448636" type="Characters">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5016478305779799" type="Characters">
+                            <param id="0" name="Animation">&quot;Walk&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="489572117179169">
+                <event-block sid="576294660212215">
                     <conditions>
-                        <condition id="-22" name="Else" sid="8798323865393274" type="System" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="6699819274908809" type="Characters">
+                            <param id="0" name="Instance variable">holdingRight</param>
+                        </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="8971943482263724" type="Characters">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
                     <sub-events>
-                        <comment>Left and Right</comment>
-                        <event-block sid="3968628182746263">
+                        <event-block sid="5857565316654174">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="4275552097320597" type="Characters">
-                                    <param id="0" name="Instance variable">holdingLeft</param>
-                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="6604711053330981" type="System" />
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="6204723290448636" type="Characters">
-                                    <param id="0" name="Control">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="576294660212215">
-                            <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="6699819274908809" type="Characters">
-                                    <param id="0" name="Instance variable">holdingRight</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="8971943482263724" type="Characters">
-                                    <param id="0" name="Control">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <comment>Jumping</comment>
-                        <event-block sid="8565547249543719">
-                            <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="5150515033282431" type="Characters">
-                                    <param id="0" name="Instance variable">holdingUp</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="5746763610142963" type="Characters">
-                                    <param id="0" name="Control">2</param>
+                                <action id="4" name="Set animation" sid="7945689963607157" type="Characters">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <comment>Jumping</comment>
+                <event-block sid="8565547249543719">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="5150515033282431" type="Characters">
+                            <param id="0" name="Instance variable">holdingUp</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="5746763610142963" type="Characters">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="8908385170285608" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>
