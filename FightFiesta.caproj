@@ -9,7 +9,10 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2tot381hs0hwe</unique-id>
     <saved-with-version>22100</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -37,14 +40,39 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="logoJG" sid="752172859281731">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9600602285854402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Student\Desktop\logo.png">
+                        <collision-poly>
+                            <point x="0.185" y="0.328889" />
+                            <point x="0.5" y="0.0955556" />
+                            <point x="0.818125" y="0.323333" />
+                            <point x="0.7975" y="0.5" />
+                            <point x="0.814375" y="0.67" />
+                            <point x="0.5" y="0.87" />
+                            <point x="0.055" y="0.902222" />
+                            <point x="0.045" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mainMenuBGJG" sid="726096618144149">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Student\Desktop\background.png" />
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
-        <layout>startMenu.xml</layout>
+        <layout>startMenuJG.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>main.xml</event-sheet>
         <event-sheet>game.xml</event-sheet>
+        <event-sheet>mainMenuJG.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
