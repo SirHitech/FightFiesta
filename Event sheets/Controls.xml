@@ -42,7 +42,7 @@
         </event-block>
         <event-block sid="5656975690263986">
             <conditions>
-                <condition id="0" name="On key pressed" sid="5736482014536742" type="Keyboard">
+                <condition id="2" name="Key is down" sid="5736482014536742" type="Keyboard">
                     <param id="0" name="Key">87 (W)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="576207649986769" type="Characters">
@@ -60,7 +60,7 @@
         </event-block>
         <event-block sid="8755466968906158">
             <conditions>
-                <condition id="0" name="On key pressed" sid="7196748967224023" type="Keyboard">
+                <condition id="2" name="Key is down" sid="7196748967224023" type="Keyboard">
                     <param id="0" name="Key">83 (S)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="6381433093271268" type="Characters">
@@ -151,7 +151,7 @@
         <comment>Player 2 controls</comment>
         <event-block sid="2629314919978805">
             <conditions>
-                <condition id="0" name="On key pressed" sid="2720387392379302" type="Keyboard">
+                <condition id="2" name="Key is down" sid="2720387392379302" type="Keyboard">
                     <param id="0" name="Key">74 (J)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="8995681342052544" type="Characters">
@@ -169,7 +169,7 @@
         </event-block>
         <event-block sid="4061329188753514">
             <conditions>
-                <condition id="0" name="On key pressed" sid="5202225146408997" type="Keyboard">
+                <condition id="2" name="Key is down" sid="5202225146408997" type="Keyboard">
                     <param id="0" name="Key">76 (L)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="4912905433611608" type="Characters">
@@ -187,7 +187,7 @@
         </event-block>
         <event-block sid="7418930252842677">
             <conditions>
-                <condition id="0" name="On key pressed" sid="7947476367803655" type="Keyboard">
+                <condition id="2" name="Key is down" sid="7947476367803655" type="Keyboard">
                     <param id="0" name="Key">73 (I)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="1706031019851039" type="Characters">
@@ -205,7 +205,7 @@
         </event-block>
         <event-block sid="7396716863836168">
             <conditions>
-                <condition id="0" name="On key pressed" sid="549346916760887" type="Keyboard">
+                <condition id="2" name="Key is down" sid="549346916760887" type="Keyboard">
                     <param id="0" name="Key">75 (K)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="7267056344661923" type="Characters">

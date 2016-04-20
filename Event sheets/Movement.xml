@@ -223,6 +223,9 @@
                         <condition id="-8" name="Is boolean instance variable set" sid="9085263286070589" type="Characters">
                             <param id="0" name="Instance variable">holdingUp</param>
                         </condition>
+                        <condition id="2" inverted="1" name="Is playing" sid="1238840776036602" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" sid="5256202676254095" type="Characters">
@@ -230,6 +233,68 @@
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
+                </event-block>
+                <comment>Idling</comment>
+                <event-block sid="1168103719240051">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9368505784893695" type="Characters">
+                            <param id="0" name="Instance variable">holdingLeft</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6997714246812336" type="Characters">
+                            <param id="0" name="Instance variable">holdingRight</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="5309115715837127">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="1123093200034813" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="6809384031211757" type="player1pin" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="2796116448988577">
+                                    <conditions>
+                                        <condition id="2" name="Is playing" sid="2357722119616266" type="Characters">
+                                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="9844261947480592">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="4785188703604763" type="Characters">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">9</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="8875768627279894" type="Characters">
+                                                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="6740971478586109">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="6095861808390207" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="5845052286551125" type="Characters">
+                                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-block>
