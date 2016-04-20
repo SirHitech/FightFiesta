@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -382,89 +383,97 @@
             <object-type name="DonaldTrump" sid="7177716042750463">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="10" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="4409125662810709" speed="5">
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
+                    <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="4409125662810709" speed="15">
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
                     </animation>
-                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="2207854976869348" speed="5">
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_000.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_001.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_002.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_003.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_004.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_005.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_006.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_007.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_008.png" />
-                        <frame duration="1" hotspotX="0.501683" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_009.png" />
+                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="2207854976869348" speed="15">
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_009.png" />
                     </animation>
-                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="599556089767827" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_000.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_001.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_002.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_003.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_004.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_005.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_006.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_007.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_008.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_009.png" />
+                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="599556089767827" speed="50">
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7719523021614056" speed="5">
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_000.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_001.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_002.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_006.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_007.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_008.png" />
-                        <frame duration="1" hotspotX="0.501779" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_009.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.501779" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="8167313934713766" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_000.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_001.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_002.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_003.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_004.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_005.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_007.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_008.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_009.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_000.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_001.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_002.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_003.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_004.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_005.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_006.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_008.png" />
+                        <frame duration="1" hotspotX="0.502762" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="8695385781905044" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_000.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_001.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_002.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_003.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_004.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_005.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_006.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_007.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_008.png" />
-                        <frame duration="1" hotspotX="0.50044" hotspotY="0.50022" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_009.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_004.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_005.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.502199" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="6432276283871324" speed="5">
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_000.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_001.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_002.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_003.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_004.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_005.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_006.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_007.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_008.png" />
-                        <frame duration="1" hotspotX="0.501548" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_009.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_006.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.501548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="player1pin" sid="431853492311732">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2192592323899805" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -546,8 +555,8 @@
                 <instance-variable name="smashMeter" sid="6238530580286978" type="number" />
             </instance-variables>
             <behaviors>
-                <behavior-type name="Platform" sid="3905198753013624">
-                    <behavior id="Platform" />
+                <behavior-type name="Pin" sid="1591366595326457">
+                    <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
         </family>
@@ -559,6 +568,16 @@
                 <instance-variable name="damage" sid="7670917973654572" type="number" />
                 <instance-variable name="knockback" sid="3434421431570185" type="number" />
             </instance-variables>
+        </family>
+        <family name="Pins" plugin-id="Sprite" sid="5151592092972034">
+            <members>
+                <member>player1pin</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Platform" sid="6905819389190943">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
         </family>
     </families>
     <layout-folder>

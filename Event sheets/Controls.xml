@@ -6,7 +6,7 @@
         <comment>Player 1 controls</comment>
         <event-block sid="3127197823075237">
             <conditions>
-                <condition id="0" name="On key pressed" sid="7019682881979184" type="Keyboard">
+                <condition id="2" name="Key is down" sid="7019682881979184" type="Keyboard">
                     <param id="0" name="Key">65 (A)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="2793426578040941" type="Characters">
@@ -24,7 +24,7 @@
         </event-block>
         <event-block sid="15980796130316">
             <conditions>
-                <condition id="0" name="On key pressed" sid="7696752827916527" type="Keyboard">
+                <condition id="2" name="Key is down" sid="7696752827916527" type="Keyboard">
                     <param id="0" name="Key">68 (D)</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="2029798026867914" type="Characters">
