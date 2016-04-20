@@ -44,25 +44,73 @@
         <object-type name="logoJG" sid="752172859281731">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9600602285854402" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Student\Desktop\logo.png">
-                        <collision-poly>
-                            <point x="0.185" y="0.328889" />
-                            <point x="0.5" y="0.0955556" />
-                            <point x="0.818125" y="0.323333" />
-                            <point x="0.7975" y="0.5" />
-                            <point x="0.814375" y="0.67" />
-                            <point x="0.5" y="0.87" />
-                            <point x="0.055" y="0.902222" />
-                            <point x="0.045" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="60" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9600602285854402" speed="30">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_009.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_010.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_011.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_012.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_013.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_014.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_015.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_016.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_017.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_018.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_019.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_020.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_021.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_022.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_023.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_024.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_025.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_026.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_027.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_028.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_029.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_030.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_031.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_032.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_033.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_034.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_035.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_036.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_037.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_038.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_039.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_040.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_041.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_042.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_043.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_044.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_045.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_046.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_047.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_048.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_049.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_050.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_051.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_052.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_053.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_054.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_055.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_056.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_057.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_058.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_059.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="mainMenuBGJG" sid="726096618144149">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Student\Desktop\background.png" />
+            <texture original-source="C:\Users\Student\Desktop\project\FightFiesta\Fight Fiesta\background.png" />
         </object-type>
     </object-folder>
     <families />
