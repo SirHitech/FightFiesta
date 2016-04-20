@@ -120,6 +120,9 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="2952175718484069" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
                                 <condition behavior="Platform" id="2" name="Is on floor" sid="1169050094253566" type="player1pin" />
                             </conditions>
                             <actions>
@@ -157,6 +160,9 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="5678027261615948" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="7022329597402674" type="Characters">
@@ -185,6 +191,9 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="91066817242782" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
                                 <condition behavior="Platform" id="2" name="Is on floor" sid="5463455024498692" type="player1pin" />
                             </conditions>
                             <actions>
@@ -203,6 +212,9 @@
                                     <param id="0" name="Instance variable">player</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="6937107192811254" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -295,6 +307,66 @@
                             </sub-events>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Walk animation while jumping fix</comment>
+        <event-block sid="7362976534565631">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5955202076120239" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1138116081631967">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="2012358825537037" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="9518864725908964" type="Characters">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">9</param>
+                        </condition>
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="5774082587963635" type="player1pin" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="829176527377274" type="Characters">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="656013338853523">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3045299556538803" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6881299255995263">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="9717335075689319" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="8486999085587837" type="Characters">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8968393443923389" type="Characters">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>
