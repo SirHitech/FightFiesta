@@ -11,6 +11,9 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6475174079914861" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
             </conditions>
             <actions />
             <sub-events>
@@ -76,20 +79,50 @@
                     </sub-events>
                 </event-block>
                 <comment>Jumping</comment>
-                <event-block sid="8565547249543719">
+                <event-block sid="7345831054556912">
                     <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="5150515033282431" type="Characters">
-                            <param id="0" name="Instance variable">holdingUp</param>
+                        <condition id="-7" name="Compare instance variable" sid="8860104778978749" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-16" name="Wait" sid="2057301461896071" type="System">
-                            <param id="0" name="Seconds">0.18</param>
-                        </action>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="7720406967199211" type="player1pin">
-                            <param id="0" name="Control">2</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8565547249543719">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="5150515033282431" type="Characters">
+                                    <param id="0" name="Instance variable">holdingUp</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="388970974971945">
+                                    <conditions>
+                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="2986761539787894" type="player1pin" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="8906172833902305" type="player1pin">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="2809606204915997">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="581071047547827" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="2057301461896071" type="System">
+                                            <param id="0" name="Seconds">0.18</param>
+                                        </action>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="7720406967199211" type="player1pin">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-block>
@@ -100,6 +133,9 @@
                     <param id="0" name="Instance variable">hitstun</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5833611171745479" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
                 </condition>
             </conditions>
             <actions />
@@ -246,6 +282,57 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="9312105082872287">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3722671978361174" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9581396061387574">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9392480772229243" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="9913608206883724" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="5704200637369952" type="player1pin" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="3968015207955496" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="9347775121288426" type="Characters">
+                                    <param id="0" name="Frame number">9</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4165726637637516">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2123052881372628" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="9809695558770174" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="1758557291670868" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="2138671274335642" type="Characters">
+                                    <param id="0" name="Frame number">9</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
                 <comment>Idling</comment>
                 <event-block sid="1168103719240051">
                     <conditions>
@@ -318,6 +405,9 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6350300315349329" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
             </conditions>
             <actions />
             <sub-events>
@@ -347,6 +437,9 @@
                     <param id="0" name="Instance variable">player</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7958282963164847" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
                 </condition>
             </conditions>
             <actions />

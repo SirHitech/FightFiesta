@@ -7,6 +7,7 @@
         <variable constant="0" name="character2" sid="7749158042631734" static="0" type="number">0</variable>
         <include>Controls</include>
         <include>Movement</include>
+        <include>Attack</include>
         <event-block sid="1536244234274587">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="4356655428399539" type="System" />
