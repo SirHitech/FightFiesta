@@ -2,5 +2,284 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>mainMenuJG</name>
-    <events />
+    <events>
+        <variable constant="0" name="selectedJG" sid="1465468893466225" static="0" type="number">0</variable>
+        <event-block sid="4622364476288006">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="2427688059547491" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7523377674331815" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="7278485014740917" type="logoJG">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">59</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5896884485935306" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6738600846331455" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="783565383005453" type="Audio">
+                    <param id="0" name="Audio file">decline</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6899181818480993">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7843669923153796" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4085176221642411" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="6011728405746443" type="logoJG">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">59</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7634208519697313" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="9200321435621784" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="4286844170192408" type="Audio">
+                    <param id="0" name="Audio file">decline</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7439379037212848">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2390575253012928" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set font color" sid="1533408145812922" type="optionPlayJG">
+                    <param id="0" name="Color">rgb(237,32,36)</param>
+                </action>
+                <action id="2" name="Set font face" sid="976206587659667" type="optionPlayJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">1</param>
+                </action>
+                <action id="4" name="Set font color" sid="8942637274223876" type="optionControlsJG">
+                    <param id="0" name="Color">rgb(243,112, 48)</param>
+                </action>
+                <action id="2" name="Set font face" sid="5707281898670093" type="optionControlsJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">0</param>
+                </action>
+                <action id="4" name="Set font color" sid="9901738739039616" type="optionCreditsJG">
+                    <param id="0" name="Color">rgb(243,112, 48)</param>
+                </action>
+                <action id="2" name="Set font face" sid="3347361004962873" type="optionCreditsJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="533749911281475">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9881886751454054" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set font color" sid="9566057766340003" type="optionPlayJG">
+                    <param id="0" name="Color">rgb(243,112, 48)</param>
+                </action>
+                <action id="2" name="Set font face" sid="7111004621953929" type="optionPlayJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">0</param>
+                </action>
+                <action id="4" name="Set font color" sid="8441509349601539" type="optionControlsJG">
+                    <param id="0" name="Color">rgb(237,32,36)</param>
+                </action>
+                <action id="2" name="Set font face" sid="3488492708202882" type="optionControlsJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">1</param>
+                </action>
+                <action id="4" name="Set font color" sid="3207655140445204" type="optionCreditsJG">
+                    <param id="0" name="Color">rgb(243,112, 48)</param>
+                </action>
+                <action id="2" name="Set font face" sid="9791233763336114" type="optionCreditsJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4257747311439055">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7197684961785726" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set font color" sid="6352675080911932" type="optionPlayJG">
+                    <param id="0" name="Color">rgb(243,112, 48)</param>
+                </action>
+                <action id="2" name="Set font face" sid="4120262449655854" type="optionPlayJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">0</param>
+                </action>
+                <action id="4" name="Set font color" sid="4496160103460048" type="optionControlsJG">
+                    <param id="0" name="Color">rgb(243,112, 48)</param>
+                </action>
+                <action id="2" name="Set font face" sid="4890798007738354" type="optionControlsJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">0</param>
+                </action>
+                <action id="4" name="Set font color" sid="83980462932318" type="optionCreditsJG">
+                    <param id="0" name="Color">rgb(237,32,36)</param>
+                </action>
+                <action id="2" name="Set font face" sid="5503168596455161" type="optionCreditsJG">
+                    <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                    <param id="1" name="Style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3791882736586936">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="2450040333079203" type="logoJG">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">59</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4461234127690119" type="optionControlsJG">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5573419810696171" type="optionCreditsJG">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9129345727587909" type="optionPlayJG">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4522750313665625">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="4824549278729414" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5934500979582683" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="5534773322550137" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="2038942511203862" type="flashJG">
+                    <param id="0" name="Opacity">20</param>
+                </action>
+                <action id="-16" name="Wait" sid="9410544507318596" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="4979039741800404" type="flashJG">
+                    <param id="0" name="Opacity">40</param>
+                </action>
+                <action id="-16" name="Wait" sid="5918905326703705" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="6067735027196189" type="flashJG">
+                    <param id="0" name="Opacity">60</param>
+                </action>
+                <action id="-16" name="Wait" sid="7431502016855532" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="9622729648868254" type="flashJG">
+                    <param id="0" name="Opacity">80</param>
+                </action>
+                <action id="-16" name="Wait" sid="3935439760077178" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="8407488247743612" type="flashJG">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-42" name="Signal" sid="5296330735599228" type="System">
+                    <param id="0" name="Tag">&quot;flash&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9655265628159177">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8521144634998986" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="3766976723244395" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="1085990097508889" type="System" />
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="4406710065889842" type="System">
+                    <param id="0" name="Tag">&quot;flash&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1699848026574334">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7242103845909682" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="2663080241457396" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="5188655510740261" type="System" />
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="3039619264058405" type="System">
+                    <param id="0" name="Tag">&quot;flash&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3847988303627761">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5238668515548521" type="System">
+                    <param id="0" name="Variable">selectedJG</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="5237521478370843" type="logoJG">
+                    <param id="0" name="Instance variable">selected</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="3131590633955739" type="System" />
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="2435579105397199" type="System">
+                    <param id="0" name="Tag">&quot;flash&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
