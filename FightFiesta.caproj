@@ -453,7 +453,7 @@
                         <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_006.png" />
                         <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_007.png" />
                         <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_008.png" />
-                        <frame duration="1" hotspotX="0.328056" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_009.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\Jump Punch_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="6432276283871324" speed="25">
                         <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_000.png" />
