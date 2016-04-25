@@ -1,0 +1,1361 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menusJG</name>
+    <events>
+        <variable constant="0" name="rotationJG" sid="7833287926520221" static="0" type="number">0</variable>
+        <variable constant="0" name="stopJG" sid="1713850871070056" static="0" type="number">0</variable>
+        <variable constant="0" name="directionJG" sid="6585179436089579" static="0" type="number">0</variable>
+        <variable constant="0" name="selectedJG" sid="1465468893466225" static="0" type="number">0</variable>
+        <event-group description="" sid="8970140286106182" title="StartMenuJG">
+            <sub-events>
+                <event-block sid="4622364476288006">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="2427688059547491" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7523377674331815" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="7278485014740917" type="logoJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">59</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5896884485935306" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="6738600846331455" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="783565383005453" type="Audio">
+                            <param id="0" name="Audio file">decline</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6899181818480993">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="7843669923153796" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4085176221642411" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="6011728405746443" type="logoJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">59</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7634208519697313" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="9200321435621784" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="4286844170192408" type="Audio">
+                            <param id="0" name="Audio file">decline</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7439379037212848">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2390575253012928" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="1533408145812922" type="optionPlayJG">
+                            <param id="0" name="Color">rgb(237,32,36)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="976206587659667" type="optionPlayJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">1</param>
+                        </action>
+                        <action id="4" name="Set font color" sid="8942637274223876" type="optionControlsJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="5707281898670093" type="optionControlsJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">0</param>
+                        </action>
+                        <action id="4" name="Set font color" sid="9901738739039616" type="optionCreditsJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="3347361004962873" type="optionCreditsJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="533749911281475">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9881886751454054" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="9566057766340003" type="optionPlayJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="7111004621953929" type="optionPlayJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">0</param>
+                        </action>
+                        <action id="4" name="Set font color" sid="8441509349601539" type="optionControlsJG">
+                            <param id="0" name="Color">rgb(237,32,36)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="3488492708202882" type="optionControlsJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">1</param>
+                        </action>
+                        <action id="4" name="Set font color" sid="3207655140445204" type="optionCreditsJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="9791233763336114" type="optionCreditsJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4257747311439055">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7197684961785726" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="6352675080911932" type="optionPlayJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="4120262449655854" type="optionPlayJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">0</param>
+                        </action>
+                        <action id="4" name="Set font color" sid="4496160103460048" type="optionControlsJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="4890798007738354" type="optionControlsJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">0</param>
+                        </action>
+                        <action id="4" name="Set font color" sid="83980462932318" type="optionCreditsJG">
+                            <param id="0" name="Color">rgb(237,32,36)</param>
+                        </action>
+                        <action id="2" name="Set font face" sid="5503168596455161" type="optionCreditsJG">
+                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
+                            <param id="1" name="Style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3791882736586936">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2450040333079203" type="logoJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">59</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="4461234127690119" type="optionControlsJG">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="5573419810696171" type="optionCreditsJG">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9129345727587909" type="optionPlayJG">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4522750313665625">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="4824549278729414" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5934500979582683" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="5534773322550137" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="2038942511203862" type="flashJG">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9410544507318596" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="4979039741800404" type="flashJG">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5918905326703705" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="6067735027196189" type="flashJG">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="7431502016855532" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="9622729648868254" type="flashJG">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="3935439760077178" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="8407488247743612" type="flashJG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-42" name="Signal" sid="5296330735599228" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Add in &quot;go to layout&quot; for the start menu options other than Play</comment>
+                <event-block sid="9655265628159177">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8521144634998986" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="3766976723244395" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="1085990097508889" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="4406710065889842" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="763368030002485" type="System">
+                            <param id="0" name="Layout">characterSelectJG</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1699848026574334">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7242103845909682" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="2663080241457396" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="5188655510740261" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="3039619264058405" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3847988303627761">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5238668515548521" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="5237521478370843" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="3131590633955739" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="2435579105397199" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="4591580657136268" title="CharacterSelectJG">
+            <sub-events>
+                <event-block sid="3294677809561681">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="6155958412654798" type="player1SelectJG">
+                            <param id="0" name="Object">charactersJG</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="4369472448960644" type="player1NameJG">
+                            <param id="0" name="Color">rgb(20,1,253)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="7485399152800086" type="player1NameJG">
+                            <param id="0" name="Text">charactersJG.name</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="7827809922954947" type="player1JG">
+                            <param id="0" name="Animation">charactersJG.animation</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="9032033648969472" type="Audio">
+                            <param id="0" name="Audio file">menuSelect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9088901878651284">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="7606584567466367" type="player2SelectJG">
+                            <param id="0" name="Object">charactersJG</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="599307282490478" type="player2NameJG">
+                            <param id="0" name="Color">rgb(237,28,36)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="923277381702511" type="player2NameJG">
+                            <param id="0" name="Text">charactersJG.name</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="3812106758362761" type="player2JG">
+                            <param id="0" name="Animation">charactersJG.animation</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="6824794299043965" type="Audio">
+                            <param id="0" name="Audio file">menuSelect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3135879071546944">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="509852143810933" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="5558799831567075" type="player1SelectJG">
+                            <param id="0" name="X">(player1SelectJG.column * 200) + 700</param>
+                            <param id="1" name="Y">(player1SelectJG.row * 200) + 300</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="9254773766443323" type="player2SelectJG">
+                            <param id="0" name="X">(player2SelectJG.column * 200) + 700</param>
+                            <param id="1" name="Y">(player2SelectJG.row * 200) + 300</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9951001642088153">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="6608290708141285" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="7205009552335935" type="titleJG">
+                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        </action>
+                        <action id="8" name="Set silent" sid="2596349818163949" type="Audio">
+                            <param id="0" name="Mode">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9680365846439356" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="8" name="Set silent" sid="2176761221594151" type="Audio">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Add in global variable to specify which characters are selected</comment>
+                <event-block sid="2500087923891643">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="1625385495447881" type="player1SelectJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="7917832068281261" type="player2SelectJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="7609932318695278" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="2493373872604943" type="flashJG">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5792502015538651" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3541011904958639" type="flashJG">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4774565520402808" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="2155465584569454" type="flashJG">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9711239686481434" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="9261131419235413" type="flashJG">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5758945188957333" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="5220839727032279" type="flashJG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="5406684560708648" type="System">
+                            <param id="0" name="Layout">stageSelectJG</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="6049946008332471" title="Player1 Controls JG2">
+                    <sub-events>
+                        <event-block sid="505974722024636">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="8776381978528234" type="Keyboard">
+                                    <param id="0" name="Key">13 (Return)</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3517349713948879">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="4407999522844454" type="player1SelectJG">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="8865521182994376" type="player1SelectJG">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="238390795956918" type="Audio">
+                                            <param id="0" name="Audio file">confirm</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="269059091960971">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="3411079848582593" type="System" />
+                                        <condition id="3" name="Compare frame" sid="9054825208893986" type="player2SelectJG">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="1795075242525891" type="player1SelectJG">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="3765997442821774" type="Audio">
+                                            <param id="0" name="Audio file">decline</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4914852078966868">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="348589328073721" type="player1SelectJG">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="825787656736663">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="5589177033682687" type="Keyboard">
+                                            <param id="0" name="Key">39 (Right arrow)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="4277978613781789" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Add to" sid="250709839765563" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="6925038247465609">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="6790226368178002" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="4603470371235358" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.row</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="3437122771186237" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="450350745108486">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="4714065432717525" type="Keyboard">
+                                            <param id="0" name="Key">37 (Left arrow)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="6929697483370546" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="6601003649918055" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="2546091627447202">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="2644312844175469" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="3998095638100731" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.row</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-11" name="Add to" sid="1295312273547466" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="1084895211250681">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="9843170025608864" type="Keyboard">
+                                            <param id="0" name="Key">40 (Down arrow)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="7903575807163483" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Add to" sid="6362880885660878" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="8163034367108756">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="6440777780860862" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="421394717905728" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="7414004113692578" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="6545049672632875" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="651933356755823">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="5663571191122594" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="1186656317067986" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="9976099246611406" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-11" name="Add to" sid="1582128176525835" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="1467834894452101">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="9002577052550714" type="Keyboard">
+                                            <param id="0" name="Key">38 (Up arrow)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="3647091129557186" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="1468063938064641" type="player1SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="9453163427493806">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="675391686555968" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="6923906694163026" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="1639304190800584" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-11" name="Add to" sid="1565877618247401" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="746780423089215">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="5805737740531458" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="7679887443731537" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player2SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="8314995569507606" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="5760181523335197" type="player1SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="1309028588288237" title="Player2 Controls JG2">
+                    <sub-events>
+                        <event-block sid="7525376878654804">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="5672811174632726" type="Keyboard">
+                                    <param id="0" name="Key">32 (Space)</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7856581251671486">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="4825692619447801" type="player2SelectJG">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="6480383768876783" type="player2SelectJG">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="5901598966552805" type="Audio">
+                                            <param id="0" name="Audio file">confirm</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6761844632104394">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="7729463400758963" type="System" />
+                                        <condition id="3" name="Compare frame" sid="5857608656496333" type="player1SelectJG">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="684233910300574" type="player2SelectJG">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="7901097629188508" type="Audio">
+                                            <param id="0" name="Audio file">decline</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6019896700226626">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="1154538950864532" type="player2SelectJG">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="9485115656819092">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="4485163004832758" type="Keyboard">
+                                            <param id="0" name="Key">68 (D)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="5313331176219496" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Add to" sid="2361152484113313" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="9979505643266763">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="8398903812491304" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="6646681881081932" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.row</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="7333636451090182" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="9379876921225597">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="9822965474054795" type="Keyboard">
+                                            <param id="0" name="Key">65 (A)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="5158182223567674" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="7825342139361197" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">column</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="8433133517960828">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="9249821186951902" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="6231640713354731" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.row</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-11" name="Add to" sid="8819681065135016" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="9475990809483263">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="4141758913030288" type="Keyboard">
+                                            <param id="0" name="Key">83 (S)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="5401960126612096" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Add to" sid="8051545852394557" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="1916858682567131">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="2824616704254467" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="9007912451213656" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="1507651584998972" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="7041128812543995" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="673626143366405">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="508023250896307" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="5985015188671472" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="4640388186724076" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-11" name="Add to" sid="5740860311711518" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="8526077886738781">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="8354307279836832" type="Keyboard">
+                                            <param id="0" name="Key">87 (W)</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="6294978249227082" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4366660415362477" type="player2SelectJG">
+                                            <param id="0" name="Instance variable">row</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="2639994362476007">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="9789710412873574" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="8312492190499006" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="3522778299468929" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-11" name="Add to" sid="1097766188040964" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="9220036453222864">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="1229667397955352" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">column</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.column</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="7871619897763719" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">player1SelectJG.row</param>
+                                                </condition>
+                                                <condition id="-7" name="Compare instance variable" sid="8997550329418874" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="4729472177403643" type="player2SelectJG">
+                                                    <param id="0" name="Instance variable">row</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="6734742414229703" title="stageSelectJG">
+            <sub-events>
+                <event-block sid="4587169902567975">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="2204577068104423" type="stageOptionsJG">
+                            <param id="0" name="Object">stopRotationJG</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8900890170144892" type="stopRotationJG">
+                            <param id="0" name="Instance variable">direction</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6987364346850028" type="System">
+                            <param id="0" name="Variable">directionJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5508877988900109" type="System">
+                            <param id="0" name="Variable">directionJG</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="7369297104852694" type="Audio">
+                            <param id="0" name="Audio file">levelSelect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4391515128590026">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="2793351606840652" type="stageOptionsJG">
+                            <param id="0" name="Object">stopRotationJG</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8870066475157232" type="stopRotationJG">
+                            <param id="0" name="Instance variable">direction</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3798867500539758" type="System">
+                            <param id="0" name="Variable">directionJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5120015042785958" type="System">
+                            <param id="0" name="Variable">directionJG</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="7274559505286966" type="Audio">
+                            <param id="0" name="Audio file">levelSelect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4791304902702242">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="3205247634392729" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="795022298079099" type="stageOptionsJG">
+                            <param id="0" name="Instance variable">z</param>
+                            <param id="1" name="Value">100*cos(rotationJG+360*Self.AnimationFrame/stageOptionsJG.Count)+100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="5615097236529938" type="stageOptionsJG">
+                            <param id="0" name="X">800+250*sin(rotationJG+360*Self.AnimationFrame/stageOptionsJG.Count)</param>
+                            <param id="1" name="Y">250+self.z*0.8</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="9701194960445097" type="stageOptionsJG">
+                            <param id="0" name="Width">self.z+75</param>
+                            <param id="1" name="Height">self.z+75</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="531304452805012" type="stageOptionsJG">
+                            <param id="0" name="Opacity">30+80/200*self.z</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="3092504587409717" type="stageOptionsJG">
+                            <param id="0" name="Instance variable">z_ordered</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2546492369723191">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2567171790170341" type="System">
+                                    <param id="0" name="Variable">directionJG</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="1623844849043742" type="System">
+                                    <param id="0" name="Variable">rotationJG</param>
+                                    <param id="1" name="Value">-(640)/5*dt</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1992930345824672">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5599954687980476" type="System">
+                                    <param id="0" name="Variable">directionJG</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="4226822288978282" type="System">
+                                    <param id="0" name="Variable">rotationJG</param>
+                                    <param id="1" name="Value">(640)/5*dt</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1678659051001685">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9420003848950077" type="System">
+                            <param id="0" name="Variable">stopJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="8859458265054074" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5141191725810566" type="System">
+                            <param id="0" name="Variable">rotationJG</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3374895928033599">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="3555917381059848" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4717874348875798" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9091693745893862" type="System">
+                            <param id="0" name="Variable">directionJG</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="423690834338465">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="5611067948725259" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2225004767267267" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="1071579021087936" type="System">
+                            <param id="0" name="Variable">directionJG</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6615830787799757">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="1525294110710055" type="System">
+                            <param id="0" name="Count">stageOptionsJG.Count</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <variable constant="0" name="lowest" sid="3548708846509906" static="0" type="number">10000</variable>
+                        <variable constant="0" name="inst_uid" sid="2360104145018671" static="0" type="number">0</variable>
+                        <event-block sid="6233943181321758">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4378893695090223" type="stageOptionsJG">
+                                    <param id="0" name="Instance variable">z_ordered</param>
+                                </condition>
+                                <condition id="-11" name="For Each" sid="3922633095452183" type="System">
+                                    <param id="0" name="Object">stageOptionsJG</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="8110888782517604" type="stageOptionsJG">
+                                    <param id="0" name="Instance variable">z</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">lowest</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="3247467290553073" type="System">
+                                    <param id="0" name="Variable">lowest</param>
+                                    <param id="1" name="Value">stageOptionsJG.z</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="9330225972973788" type="System">
+                                    <param id="0" name="Variable">inst_uid</param>
+                                    <param id="1" name="Value">stageOptionsJG.UID</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6559753091030238">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="9023416400220505" type="stageOptionsJG">
+                                    <param id="0" name="Unique ID">inst_uid</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-24" name="Move to top" sid="9175225486732965" type="stageOptionsJG" />
+                                <action id="-13" name="Set boolean" sid="8114964146401192" type="stageOptionsJG">
+                                    <param id="0" name="Instance variable">z_ordered</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="6446900596241554" type="stageNameJG">
+                                    <param id="0" name="Text">stageOptionsJG.name</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="2682189763455768" type="System">
+                                    <param id="0" name="Variable">selectedJG</param>
+                                    <param id="1" name="Value">stageOptionsJG.AnimationFrame</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1406366258367553">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="7830956995552829" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5500301161983782" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="2035483153896668" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3919164636934734" type="flashJG">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="7105558280198205" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="5989458120563032" type="flashJG">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8832203086155103" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="5488159921054017" type="flashJG">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8153655790902227" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="7932615522789059" type="flashJG">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9290213392386658" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="7361544550240445" type="flashJG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-42" name="Signal" sid="2054929400981746" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Add in &quot;go to layout&quot; depending on which stage is selected</comment>
+                <event-block sid="9114605518158044">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7771783494402456" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="6622595768717055" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="3028765006632052" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="4976927911303205" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8927163987966221">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5471648419362126" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="3021433269713807" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="9872232351295431" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="1521222241012973" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9671508663853014">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7073468821655807" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="7971837321925294" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="6853804948892561" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="5123423223342191" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5917572067915329">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8439841430037768" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="2477126896055484" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="9730547189950818" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="4472570690484148" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8514796024097671">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5505884995670182" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="8678948254797311" type="stageNameJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="4788751680780973" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-41" name="Wait for signal" sid="8842848894566646" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -44,112 +44,370 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="logoJG" sid="752172859281731">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="selected" sid="6016510085186538" type="boolean" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="60" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9600602285854402" speed="45">
-                    <frame duration="1" hotspotX="1.04918" hotspotY="1.16216" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_000.png" />
-                    <frame duration="1" hotspotX="0.9125" hotspotY="1" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_001.png" />
-                    <frame duration="1" hotspotX="0.842105" hotspotY="0.833333" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_002.png" />
-                    <frame duration="1" hotspotX="0.787037" hotspotY="0.728972" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_003.png" />
-                    <frame duration="1" hotspotX="0.756522" hotspotY="0.664179" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_004.png" />
-                    <frame duration="1" hotspotX="0.747748" hotspotY="0.619355" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_005.png" />
-                    <frame duration="1" hotspotX="0.786408" hotspotY="0.598837" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_006.png" />
-                    <frame duration="1" hotspotX="0.77686" hotspotY="0.587629" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_007.png" />
-                    <frame duration="1" hotspotX="0.716981" hotspotY="0.587379" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_008.png" />
-                    <frame duration="1" hotspotX="0.651961" hotspotY="0.604651" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_009.png" />
-                    <frame duration="1" hotspotX="0.609053" hotspotY="0.615741" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_010.png" />
-                    <frame duration="1" hotspotX="0.579926" hotspotY="0.636816" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_011.png" />
-                    <frame duration="1" hotspotX="0.565371" hotspotY="0.653409" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_012.png" />
-                    <frame duration="1" hotspotX="0.559211" hotspotY="0.610811" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_013.png" />
-                    <frame duration="1" hotspotX="0.560127" hotspotY="0.57619" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_014.png" />
-                    <frame duration="1" hotspotX="0.565625" hotspotY="0.562992" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_015.png" />
-                    <frame duration="1" hotspotX="0.583851" hotspotY="0.566667" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_016.png" />
-                    <frame duration="1" hotspotX="0.591331" hotspotY="0.572271" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_017.png" />
-                    <frame duration="1" hotspotX="0.603226" hotspotY="0.579946" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_018.png" />
-                    <frame duration="1" hotspotX="0.622378" hotspotY="0.589147" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_019.png" />
-                    <frame duration="1" hotspotX="0.649402" hotspotY="0.6" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_020.png" />
-                    <frame duration="1" hotspotX="0.615385" hotspotY="0.59466" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_021.png" />
-                    <frame duration="1" hotspotX="0.576779" hotspotY="0.588372" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_022.png" />
-                    <frame duration="1" hotspotX="0.552381" hotspotY="0.580645" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_023.png" />
-                    <frame duration="1" hotspotX="0.558511" hotspotY="0.564815" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_024.png" />
-                    <frame duration="1" hotspotX="0.564103" hotspotY="0.554524" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_025.png" />
-                    <frame duration="1" hotspotX="0.57234" hotspotY="0.547847" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_026.png" />
-                    <frame duration="1" hotspotX="0.581489" hotspotY="0.541026" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_027.png" />
-                    <frame duration="1" hotspotX="0.59332" hotspotY="0.534682" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_028.png" />
-                    <frame duration="1" hotspotX="0.594595" hotspotY="0.564103" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_029.png" />
-                    <frame duration="1" hotspotX="0.589981" hotspotY="0.582317" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_030.png" />
-                    <frame duration="1" hotspotX="0.584699" hotspotY="0.594901" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_031.png" />
-                    <frame duration="1" hotspotX="0.579235" hotspotY="0.59204" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_032.png" />
-                    <frame duration="1" hotspotX="0.568015" hotspotY="0.568035" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_033.png" />
-                    <frame duration="1" hotspotX="0.556377" hotspotY="0.548263" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_034.png" />
-                    <frame duration="1" hotspotX="0.550752" hotspotY="0.533808" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_035.png" />
-                    <frame duration="1" hotspotX="0.545098" hotspotY="0.520134" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_036.png" />
-                    <frame duration="1" hotspotX="0.539916" hotspotY="0.508914" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_037.png" />
-                    <frame duration="1" hotspotX="0.534884" hotspotY="0.4976" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_038.png" />
-                    <frame duration="1" hotspotX="0.550129" hotspotY="0.494436" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_039.png" />
-                    <frame duration="1" hotspotX="0.575835" hotspotY="0.493066" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_040.png" />
-                    <frame duration="1" hotspotX="0.597087" hotspotY="0.497744" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_041.png" />
-                    <frame duration="1" hotspotX="0.598272" hotspotY="0.501497" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_042.png" />
-                    <frame duration="1" hotspotX="0.577861" hotspotY="0.509119" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_043.png" />
-                    <frame duration="1" hotspotX="0.557596" hotspotY="0.525268" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_044.png" />
-                    <frame duration="1" hotspotX="0.540458" hotspotY="0.532609" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_045.png" />
-                    <frame duration="1" hotspotX="0.526466" hotspotY="0.541063" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_046.png" />
-                    <frame duration="1" hotspotX="0.514443" hotspotY="0.55137" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_047.png" />
-                    <frame duration="1" hotspotX="0.503374" hotspotY="0.564728" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_048.png" />
-                    <frame duration="1" hotspotX="0.493927" hotspotY="0.579618" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_049.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_050.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_051.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_052.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_053.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_054.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_055.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_056.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_057.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_058.png" />
-                    <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_059.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="mainMenuBGJG" sid="726096618144149">
-            <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Student\Desktop\project\FightFiesta\Fight Fiesta\background.png" />
-        </object-type>
-        <object-type name="optionPlayJG" sid="5945562439999232">
-            <plugin id="Text" />
-        </object-type>
+        <object-folder name="JG">
+            <object-folder name="main">
+                <object-type name="optionControlsJG" sid="8450785352806608">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="optionCreditsJG" sid="8777198502130352">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="optionPlayJG" sid="5945562439999232">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="logoJG" sid="752172859281731">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="selected" sid="6016510085186538" type="boolean" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="60" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9600602285854402" speed="45">
+                            <frame duration="1" hotspotX="1.04918" hotspotY="1.16216" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_000.png" />
+                            <frame duration="1" hotspotX="0.9125" hotspotY="1" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_001.png" />
+                            <frame duration="1" hotspotX="0.842105" hotspotY="0.833333" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_002.png" />
+                            <frame duration="1" hotspotX="0.787037" hotspotY="0.728972" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_003.png" />
+                            <frame duration="1" hotspotX="0.756522" hotspotY="0.664179" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_004.png" />
+                            <frame duration="1" hotspotX="0.747748" hotspotY="0.619355" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_005.png" />
+                            <frame duration="1" hotspotX="0.786408" hotspotY="0.598837" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_006.png" />
+                            <frame duration="1" hotspotX="0.77686" hotspotY="0.587629" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_007.png" />
+                            <frame duration="1" hotspotX="0.716981" hotspotY="0.587379" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_008.png" />
+                            <frame duration="1" hotspotX="0.651961" hotspotY="0.604651" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_009.png" />
+                            <frame duration="1" hotspotX="0.609053" hotspotY="0.615741" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_010.png" />
+                            <frame duration="1" hotspotX="0.579926" hotspotY="0.636816" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_011.png" />
+                            <frame duration="1" hotspotX="0.565371" hotspotY="0.653409" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_012.png" />
+                            <frame duration="1" hotspotX="0.559211" hotspotY="0.610811" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_013.png" />
+                            <frame duration="1" hotspotX="0.560127" hotspotY="0.57619" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_014.png" />
+                            <frame duration="1" hotspotX="0.565625" hotspotY="0.562992" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_015.png" />
+                            <frame duration="1" hotspotX="0.583851" hotspotY="0.566667" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_016.png" />
+                            <frame duration="1" hotspotX="0.591331" hotspotY="0.572271" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_017.png" />
+                            <frame duration="1" hotspotX="0.603226" hotspotY="0.579946" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_018.png" />
+                            <frame duration="1" hotspotX="0.622378" hotspotY="0.589147" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_019.png" />
+                            <frame duration="1" hotspotX="0.649402" hotspotY="0.6" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_020.png" />
+                            <frame duration="1" hotspotX="0.615385" hotspotY="0.59466" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_021.png" />
+                            <frame duration="1" hotspotX="0.576779" hotspotY="0.588372" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_022.png" />
+                            <frame duration="1" hotspotX="0.552381" hotspotY="0.580645" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_023.png" />
+                            <frame duration="1" hotspotX="0.558511" hotspotY="0.564815" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_024.png" />
+                            <frame duration="1" hotspotX="0.564103" hotspotY="0.554524" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_025.png" />
+                            <frame duration="1" hotspotX="0.57234" hotspotY="0.547847" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_026.png" />
+                            <frame duration="1" hotspotX="0.581489" hotspotY="0.541026" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_027.png" />
+                            <frame duration="1" hotspotX="0.59332" hotspotY="0.534682" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_028.png" />
+                            <frame duration="1" hotspotX="0.594595" hotspotY="0.564103" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_029.png" />
+                            <frame duration="1" hotspotX="0.589981" hotspotY="0.582317" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_030.png" />
+                            <frame duration="1" hotspotX="0.584699" hotspotY="0.594901" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_031.png" />
+                            <frame duration="1" hotspotX="0.579235" hotspotY="0.59204" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_032.png" />
+                            <frame duration="1" hotspotX="0.568015" hotspotY="0.568035" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_033.png" />
+                            <frame duration="1" hotspotX="0.556377" hotspotY="0.548263" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_034.png" />
+                            <frame duration="1" hotspotX="0.550752" hotspotY="0.533808" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_035.png" />
+                            <frame duration="1" hotspotX="0.545098" hotspotY="0.520134" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_036.png" />
+                            <frame duration="1" hotspotX="0.539916" hotspotY="0.508914" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_037.png" />
+                            <frame duration="1" hotspotX="0.534884" hotspotY="0.4976" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_038.png" />
+                            <frame duration="1" hotspotX="0.550129" hotspotY="0.494436" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_039.png" />
+                            <frame duration="1" hotspotX="0.575835" hotspotY="0.493066" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_040.png" />
+                            <frame duration="1" hotspotX="0.597087" hotspotY="0.497744" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_041.png" />
+                            <frame duration="1" hotspotX="0.598272" hotspotY="0.501497" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_042.png" />
+                            <frame duration="1" hotspotX="0.577861" hotspotY="0.509119" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_043.png" />
+                            <frame duration="1" hotspotX="0.557596" hotspotY="0.525268" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_044.png" />
+                            <frame duration="1" hotspotX="0.540458" hotspotY="0.532609" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_045.png" />
+                            <frame duration="1" hotspotX="0.526466" hotspotY="0.541063" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_046.png" />
+                            <frame duration="1" hotspotX="0.514443" hotspotY="0.55137" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_047.png" />
+                            <frame duration="1" hotspotX="0.503374" hotspotY="0.564728" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_048.png" />
+                            <frame duration="1" hotspotX="0.493927" hotspotY="0.579618" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_049.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_050.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_051.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_052.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_053.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_054.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_055.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_056.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_057.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_058.png" />
+                            <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="character">
+                <object-type name="charactersJG" sid="7343072258475642">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="name" sid="1033068775474362" type="string" />
+                        <instance-variable name="animation" sid="7638412619526286" type="string" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5166236463364192" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Character Heads\Spaghetti Man.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Character Heads\Professor Pizza.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Character Heads\Donald Trump.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Character Heads\Hillary Clinton.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Character Heads\Skeleton.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Character Heads\Soldier.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="player1BGJG" sid="2807889786391885">
+                    <plugin id="TiledBg" />
+                    <texture />
+                </object-type>
+                <object-type name="player1NameJG" sid="4972759355592461">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="player1SelectJG" sid="6910790239106025">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="column" sid="4877859211034692" type="number" />
+                        <instance-variable name="row" sid="69969601802937" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7651584542855133" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\player1Select.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\player1Selected.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="player2BGJG" sid="736148445736009">
+                    <plugin id="TiledBg" />
+                    <texture />
+                </object-type>
+                <object-type name="player1JG" sid="5131380150172407">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="10" loop="1" name="SM" pingpong="0" repeatcount="1" repeatto="0" sid="8751467338249724" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="PP" pingpong="0" repeatcount="1" repeatto="0" sid="6001402281293283" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="DT" pingpong="0" repeatcount="1" repeatto="0" sid="2368586772244622" speed="5">
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="HC" pingpong="0" repeatcount="1" repeatto="0" sid="5465785461807961" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="SJ" pingpong="0" repeatcount="1" repeatto="0" sid="2478222015062902" speed="5">
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="SC" pingpong="0" repeatcount="1" repeatto="0" sid="8897104350354749" speed="5">
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_009.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="player2JG" sid="2147767160181359">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="10" loop="1" name="SM" pingpong="0" repeatcount="1" repeatto="0" sid="5962423809152079" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="PP" pingpong="0" repeatcount="1" repeatto="0" sid="6941735926291775" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="DT" pingpong="0" repeatcount="1" repeatto="0" sid="105066148716171" speed="5">
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="HC" pingpong="0" repeatcount="1" repeatto="0" sid="9553311130030088" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="SJ" pingpong="0" repeatcount="1" repeatto="0" sid="9013949062521" speed="5">
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Idle\Idle_009.png" />
+                        </animation>
+                        <animation framecount="10" loop="1" name="SC" pingpong="0" repeatcount="1" repeatto="0" sid="9792369798735414" speed="5">
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_000.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_001.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_002.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_003.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_004.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_005.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_006.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_007.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_008.png" />
+                            <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\FightFiesta\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_009.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="player2NameJG" sid="977920155521194">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="player2SelectJG" sid="9103329944943356">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="column" sid="4600960674503965" type="number" />
+                        <instance-variable name="row" sid="1254137851504494" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6253359621319773" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\player2Select.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Joseph\Desktop\project\player2Selected.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="stage">
+                <object-type name="stageNameJG" sid="5701945643512887">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="selected" sid="6267330873578025" type="boolean" />
+                    </instance-variables>
+                </object-type>
+                <object-type name="stageOptionsJG" sid="5729651105475807">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="name" sid="8375089820878622" type="string" />
+                        <instance-variable name="z" sid="8041425931064275" type="number" />
+                        <instance-variable name="z_ordered" sid="1773109725874635" type="boolean" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7174990149610455" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="stopRotationJG" sid="3693680515214136">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="direction" sid="3837838385663048" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1462559920480944" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="flashJG" sid="6402678083795385">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4889996513552236" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="menuBGJG" sid="726096618144149">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Student\Desktop\project\FightFiesta\Fight Fiesta\background.png" />
+            </object-type>
+            <object-type name="titleJG" sid="4435118451382516">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
         <object-type name="Keyboard" sid="8019349184073425">
             <plugin id="Keyboard" />
         </object-type>
         <object-type name="Audio" sid="8573098221817227">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="optionControlsJG" sid="8450785352806608">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="optionCreditsJG" sid="8777198502130352">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="flashJG" sid="6402678083795385">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4889996513552236" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>startMenuJG.xml</layout>
+        <layout>characterSelectJG.xml</layout>
+        <layout>stageSelectJG.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>main.xml</event-sheet>
         <event-sheet>game.xml</event-sheet>
-        <event-sheet>mainMenuJG.xml</event-sheet>
+        <event-sheet>menusJG.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="5" />

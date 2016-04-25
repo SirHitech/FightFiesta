@@ -2,7 +2,7 @@
 <c2layout>
     <name>startMenuJG</name>
     <sid>1291207529631026</sid>
-    <event-sheet>mainMenuJG</event-sheet>
+    <event-sheet>menusJG</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="mainMenuBGJG" uid="1">
+                <instance type="menuBGJG" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>

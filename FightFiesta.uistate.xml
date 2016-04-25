@@ -11,7 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout active="1" order="0">startMenuJG</layout>
-        <event-sheet order="1">mainMenuJG</event-sheet>
+        <layout order="1">characterSelectJG</layout>
+        <layout order="2">stageSelectJG</layout>
+        <event-sheet order="3">menusJG</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -22,13 +24,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/JG/" />
+        <folder expanded="0" path="object-folder/JG/main/" />
+        <folder expanded="0" path="object-folder/JG/character/" />
+        <folder expanded="0" path="object-folder/JG/stage/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/logoJG/" />
+        <folder expanded="1" path="animation-folder/charactersJG/" />
+        <folder expanded="1" path="animation-folder/player1SelectJG/" />
+        <folder expanded="1" path="animation-folder/player1JG/" />
+        <folder expanded="1" path="animation-folder/player2JG/" />
+        <folder expanded="1" path="animation-folder/player2SelectJG/" />
+        <folder expanded="1" path="animation-folder/stageOptionsJG/" />
+        <folder expanded="1" path="animation-folder/stopRotationJG/" />
         <folder expanded="1" path="animation-folder/flashJG/" />
     </folders-expanded>
 </c2uistate>
