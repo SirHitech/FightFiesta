@@ -11,12 +11,19 @@
     <saved-with-version>22100</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+		<plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+		<plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+		<plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -44,6 +51,476 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
+		<object-folder name="characters">
+            <object-type name="testChar" sid="7949267280400079">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="Standing" pingpong="0" repeatcount="1" repeatto="0" sid="8828430743052504" speed="2">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="2" loop="0" name="Crouching" pingpong="0" repeatcount="1" repeatto="0" sid="9830756147453899" speed="2">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.80303" />
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.80303" />
+                    </animation>
+                    <animation framecount="6" loop="1" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="2599747550881805" speed="10">
+                        <frame duration="1" hotspotX="0.476923" hotspotY="0.492424" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="7373254283257876" speed="2">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="7" loop="0" name="LHigh" pingpong="0" repeatcount="1" repeatto="0" sid="907282851052436" speed="30">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.403509" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.359375" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.323944" hotspotY="0.5">
+                            <image-point name="Hitbox" x="0.929577" y="0.507576" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.323944" hotspotY="0.5">
+                            <image-point name="Hitbox" x="0.929577" y="0.507576" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.403509" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="LLow" pingpong="0" repeatcount="1" repeatto="0" sid="8044006054629249" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.495798" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.415929">
+                            <image-point name="Hitbox" x="0.862385" y="0.823009" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.415929">
+                            <image-point name="Hitbox" x="0.862385" y="0.823009" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.509091" hotspotY="0.47619" />
+                    </animation>
+                    <animation framecount="12" loop="0" name="HHigh" pingpong="0" repeatcount="1" repeatto="0" sid="4693443175001113" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.445378" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.435897" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.421053" />
+                        <frame duration="1" hotspotX="0.50505" hotspotY="0.410714" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4">
+                            <image-point name="Hitbox" x="0.886792" y="0.481818" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4">
+                            <image-point name="Hitbox" x="0.886792" y="0.481818" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.421053" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.509091" hotspotY="0.47619" />
+                    </animation>
+                    <animation framecount="13" loop="0" name="HLow" pingpong="0" repeatcount="1" repeatto="0" sid="9616022325196959" speed="30">
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.504202" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.504425" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.504425" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.504202" />
+                        <frame duration="1" hotspotX="0.510204" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="8" loop="0" name="LAir" pingpong="0" repeatcount="1" repeatto="0" sid="9659805712857286" speed="30">
+                        <frame duration="1" hotspotX="0.438596" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.431034" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.390625" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.367647" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.926471" y="0.41129" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.347222" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.930556" y="0.491935" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.373134" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.955224" y="0.629032" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.423729" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.471698" hotspotY="0.532258" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="HAir" pingpong="0" repeatcount="1" repeatto="0" sid="7001107169598979" speed="30">
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="testChar2" sid="5746208995271046">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="Standing" pingpong="0" repeatcount="1" repeatto="0" sid="3438538295692394" speed="2">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="6" loop="1" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="9565768313042861" speed="10">
+                        <frame duration="1" hotspotX="0.476923" hotspotY="0.492424" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.492308" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="1217371261292283" speed="2">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="7" loop="0" name="LHigh" pingpong="0" repeatcount="1" repeatto="0" sid="5387823377174981" speed="30">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.403509" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.359375" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.323944" hotspotY="0.5">
+                            <image-point name="Hitbox" x="0.929577" y="0.507576" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.323944" hotspotY="0.5">
+                            <image-point name="Hitbox" x="0.929577" y="0.507576" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.403509" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="LLow" pingpong="0" repeatcount="1" repeatto="0" sid="2374503676565308" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.495798" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.415929">
+                            <image-point name="Hitbox" x="0.862385" y="0.823009" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.415929">
+                            <image-point name="Hitbox" x="0.862385" y="0.823009" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.509091" hotspotY="0.47619" />
+                    </animation>
+                    <animation framecount="12" loop="0" name="HHigh" pingpong="0" repeatcount="1" repeatto="0" sid="6014480944148393" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.47619" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.445378" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.435897" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.421053" />
+                        <frame duration="1" hotspotX="0.50505" hotspotY="0.410714" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4">
+                            <image-point name="Hitbox" x="0.886792" y="0.481818" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4">
+                            <image-point name="Hitbox" x="0.886792" y="0.481818" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.421053" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.415929" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.463415" />
+                        <frame duration="1" hotspotX="0.509091" hotspotY="0.47619" />
+                    </animation>
+                    <animation framecount="13" loop="0" name="HLow" pingpong="0" repeatcount="1" repeatto="0" sid="7555921554401494" speed="30">
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.504202" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.504425" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.504" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.50365" hotspotY="0.5">
+                            <image-point name="Htibox" x="0.905109" y="0.647727" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.504425" />
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.504202" />
+                        <frame duration="1" hotspotX="0.510204" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="8" loop="0" name="LAir" pingpong="0" repeatcount="1" repeatto="0" sid="6708692605811959" speed="30">
+                        <frame duration="1" hotspotX="0.438596" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.431034" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.390625" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.367647" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.926471" y="0.41129" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.347222" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.930556" y="0.491935" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.373134" hotspotY="0.532258">
+                            <image-point name="Htibox" x="0.955224" y="0.629032" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.423729" hotspotY="0.532258" />
+                        <frame duration="1" hotspotX="0.471698" hotspotY="0.532258" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="HAir" pingpong="0" repeatcount="1" repeatto="0" sid="5685145840957532" speed="30">
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.378378" hotspotY="0.512">
+                            <image-point name="Htibox" x="0.635135" y="0.808" />
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.716216" y="0" />
+                                <point x="0.716216" y="0.992" />
+                                <point x="0" y="0.992" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.516129" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DonaldTrump" sid="7177716042750463">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="4409125662810709" speed="15">
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="2207854976869348" speed="15">
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="599556089767827" speed="50">
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.38189" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump\Jump_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7719523021614056" speed="25">
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.359431" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Punch\Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="8167313934713766" speed="22">
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_000.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_001.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_002.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_003.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_004.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_005.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_006.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_008.png" />
+                        <frame duration="1" hotspotX="0.367403" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Kick\Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="8695385781905044" speed="25">
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_004.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_005.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\Jump Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="6432276283871324" speed="25">
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_006.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="player1pin" sid="431853492311732">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2192592323899805" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="stage tiles">
+            <object-type name="Background1" sid="9695385204637594">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="stage1" sid="632066708523127">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="6731258954751007">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture />
+            </object-type>
+        </object-folder>
+        <object-folder name="hitboxes">
+            <object-type name="hitbox01" sid="6789687895113474">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9656614103943012" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="platforms">
+            <object-type name="SpawnPlatform" sid="4164593434828023">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7665555390917523" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="-0.678571" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SpawnPlatform2" sid="1322569399046856">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6857456733403785" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="-0.678571" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+		</object-folder>
         <object-folder name="JG">
             <object-folder name="main">
                 <object-type name="optionControlsJG" sid="8450785352806608">
@@ -394,24 +871,84 @@
         <object-type name="Keyboard" sid="8019349184073425">
             <plugin id="Keyboard" />
         </object-type>
+		<object-type name="Mouse" sid="9910679035708768">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Function" sid="7024606755764187">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Browser" sid="4239245104911811">
+            <plugin id="Browser" />
+        </object-type>
         <object-type name="Audio" sid="8573098221817227">
             <plugin id="Audio" />
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="Characters" plugin-id="Sprite" sid="133386739793042">
+            <members>
+                <member>DonaldTrump</member>
+                <member>testChar</member>
+                <member>testChar2</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="holdingLeft" sid="1929856627992251" type="boolean" />
+                <instance-variable name="holdingRight" sid="8007573706860644" type="boolean" />
+                <instance-variable name="holdingUp" sid="5325848355553001" type="boolean" />
+                <instance-variable name="holdingDown" sid="6989004931977572" type="boolean" />
+                <instance-variable name="attacking" sid="1766745771354642" type="boolean" />
+                <instance-variable name="hitstun" sid="1091958976665778" type="number" />
+                <instance-variable name="player" sid="1541072889687875" type="number" />
+                <instance-variable name="smashMeter" sid="6238530580286978" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="1591366595326457">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Hitboxes" plugin-id="Sprite" sid="2202279159938641">
+            <members>
+                <member>hitbox01</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="damage" sid="7670917973654572" type="number" />
+                <instance-variable name="knockback" sid="3434421431570185" type="number" />
+            </instance-variables>
+        </family>
+        <family name="Pins" plugin-id="Sprite" sid="5151592092972034">
+            <members>
+                <member>player1pin</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Platform" sid="6905819389190943">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+        </family>
+    </families>
     <layout-folder>
         <layout>startMenuJG.xml</layout>
         <layout>characterSelectJG.xml</layout>
         <layout>stageSelectJG.xml</layout>
+		<layout>startMenu.xml</layout>
+        <layout>allCharacters.xml</layout>
+        <layout>stage1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>main.xml</event-sheet>
-        <event-sheet>game.xml</event-sheet>
         <event-sheet>menusJG.xml</event-sheet>
+		<event-sheet>Movement.xml</event-sheet>
+        <event-sheet>Game.xml</event-sheet>
+        <event-sheet>Controls.xml</event-sheet>
+        <event-sheet>Attack.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="5" />
-        <global-instance type="Audio" uid="6">
+        <global-instance type="Mouse" uid="6" />
+        <global-instance type="Function" uid="7" />
+        <global-instance type="Browser" uid="8" />
+        <global-instance type="Audio" uid="9" >
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>

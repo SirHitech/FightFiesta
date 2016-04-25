@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Movement</name>
+    <events>
+        <comment>Movement</comment>
+        <event-block sid="9277638000351247">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="8606619030365908" type="Characters">
+                    <param id="0" name="Instance variable">hitstun</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6475174079914861" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>Left and Right</comment>
+                <event-block sid="3968628182746263">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="4275552097320597" type="Characters">
+                            <param id="0" name="Instance variable">holdingLeft</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1920373305768179">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="7506087109277639" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="1646303143194862" type="player1pin">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7506030326058358">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7943397305144569" type="System" />
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="576294660212215">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="6699819274908809" type="Characters">
+                            <param id="0" name="Instance variable">holdingRight</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="7981279546547482">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="4357492177786512" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="6685046522182872" type="player1pin">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9385455484875401">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="5697165056232394" type="System" />
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Jumping</comment>
+                <event-block sid="7345831054556912">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8860104778978749" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8565547249543719">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="5150515033282431" type="Characters">
+                                    <param id="0" name="Instance variable">holdingUp</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="388970974971945">
+                                    <conditions>
+                                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="2986761539787894" type="player1pin" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="8906172833902305" type="player1pin">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="2809606204915997">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="581071047547827" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="2057301461896071" type="System">
+                                            <param id="0" name="Seconds">0.18</param>
+                                        </action>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="7720406967199211" type="player1pin">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Animations</comment>
+        <event-block sid="4196906283539924">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="6568789509225678" type="Characters">
+                    <param id="0" name="Instance variable">hitstun</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5833611171745479" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>Left and Right</comment>
+                <event-block sid="1406483797325899">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="1896513240602301" type="Characters">
+                            <param id="0" name="Instance variable">holdingLeft</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6409926213291389">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="6380959699650564" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="2952175718484069" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                                <condition behavior="Platform" id="2" name="Is on floor" sid="1169050094253566" type="player1pin" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="3148901302253876" type="Characters">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="6" name="Set speed" sid="8174569096909105" type="Characters">
+                                    <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="7953473557178141">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="9718632722523913" type="Characters">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="3840790207780469" type="System">
+                                            <param id="0" name="Seconds">0.01</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="3407606787943407" type="Characters">
+                                            <param id="0" name="Frame number">9</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6148051481226627">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9037020578312337" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="5678027261615948" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="7022329597402674" type="Characters">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="6" name="Set speed" sid="1576001456661823" type="Characters">
+                                    <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8999082871215049">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="1622529858521979" type="Characters">
+                            <param id="0" name="Instance variable">holdingRight</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="2121125815316191">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2122658042861117" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="91066817242782" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                                <condition behavior="Platform" id="2" name="Is on floor" sid="5463455024498692" type="player1pin" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="2683993157629298" type="Characters">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="6" name="Set speed" sid="3046471124550864" type="Characters">
+                                    <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4186110872996389">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="8203117258604269" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="6937107192811254" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="6839702369827813" type="Characters">
+                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="6" name="Set speed" sid="8479803125091602" type="Characters">
+                                    <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Jumping</comment>
+                <event-block sid="1291694543262355">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="9085263286070589" type="Characters">
+                            <param id="0" name="Instance variable">holdingUp</param>
+                        </condition>
+                        <condition id="2" inverted="1" name="Is playing" sid="1238840776036602" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5256202676254095" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9312105082872287">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3722671978361174" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9581396061387574">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9392480772229243" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="9913608206883724" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="5704200637369952" type="player1pin" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="3968015207955496" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="9347775121288426" type="Characters">
+                                    <param id="0" name="Frame number">9</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4165726637637516">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2123052881372628" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="9809695558770174" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="1758557291670868" type="Characters">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="2138671274335642" type="Characters">
+                                    <param id="0" name="Frame number">9</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Idling</comment>
+                <event-block sid="1168103719240051">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9368505784893695" type="Characters">
+                            <param id="0" name="Instance variable">holdingLeft</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6997714246812336" type="Characters">
+                            <param id="0" name="Instance variable">holdingRight</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="5309115715837127">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="1123093200034813" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="6809384031211757" type="player1pin" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="2796116448988577">
+                                    <conditions>
+                                        <condition id="2" name="Is playing" sid="2357722119616266" type="Characters">
+                                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="9844261947480592">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="4785188703604763" type="Characters">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">9</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="8875768627279894" type="Characters">
+                                                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="6740971478586109">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="6095861808390207" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="5845052286551125" type="Characters">
+                                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Walk animation while jumping fix</comment>
+        <event-block sid="7362976534565631">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5955202076120239" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6350300315349329" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1138116081631967">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="2012358825537037" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="9518864725908964" type="Characters">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">9</param>
+                        </condition>
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="5774082587963635" type="player1pin" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="829176527377274" type="Characters">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="656013338853523">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3045299556538803" type="Characters">
+                    <param id="0" name="Instance variable">player</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7958282963164847" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6881299255995263">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="9717335075689319" type="Characters">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="8486999085587837" type="Characters">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8968393443923389" type="Characters">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Face the other guy</comment>
+        <event-block sid="6807629789048368">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8851710807995459" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="x1" sid="5031815022454294" static="0" type="number">0</variable>
+                <variable constant="0" name="x2" sid="2998578455505476" static="0" type="number">0</variable>
+                <event-block sid="7829342919758726">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4963224743969615" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6089031227190134" type="System">
+                            <param id="0" name="Variable">x1</param>
+                            <param id="1" name="Value">Characters.X</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4873826324777759">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8324670941013845" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6784106573565314" type="System">
+                            <param id="0" name="Variable">x2</param>
+                            <param id="1" name="Value">Characters.X</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3281045501407711">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3813707867456164" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1452347334019941">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4618798492133968" type="System">
+                                    <param id="0" name="Variable">x1</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">x2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="5917694257671087" type="Characters">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9898739010028615">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="1967529385541578" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="6581181924533693" type="Characters">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7812697828342129">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7519474913759413" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4969929875504747">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5555382392858261" type="System">
+                                    <param id="0" name="Variable">x1</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">x2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="4874987745561647" type="Characters">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8282591452221171">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="8408488567567127" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="605048963042328" type="Characters">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
