@@ -115,6 +115,104 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <event-block sid="3031825633533003">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1183005047220564" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>P2: On the ground</comment>
+                        <event-block sid="1614141821037986">
+                            <conditions>
+                                <condition behavior="Platform" id="2" name="Is on floor" sid="9558615124334612" type="player2pin" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3104439338963746">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="5202688878397354" type="Keyboard">
+                                            <param id="0" name="Key">85 (U)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="8413716762314813" type="Characters">
+                                            <param id="0" name="Animation">&quot;StandPunch&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="6454856719540886" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1519851535043007">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="5776915609877433" type="Keyboard">
+                                            <param id="0" name="Key">79 (O)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="9004219106490996" type="Characters">
+                                            <param id="0" name="Animation">&quot;StandKick&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="9719719380143732" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>P2: In the air</comment>
+                        <event-block sid="3132028256403999">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3042438101960049" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="9791667708711503">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="6775299943073395" type="Keyboard">
+                                            <param id="0" name="Key">85 (U)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="6642786888457296" type="Characters">
+                                            <param id="0" name="Animation">&quot;JumpPunch&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="656003647285433" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4454695894558985">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="2036731599064648" type="Keyboard">
+                                            <param id="0" name="Key">79 (O)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="9549257064771226" type="Characters">
+                                            <param id="0" name="Animation">&quot;JumpKick&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="2219571213108329" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-block>
         <comment>End Attack Animations</comment>

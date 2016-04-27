@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="testChar" uid="0">
+                <instance type="testChar" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -64,7 +64,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="hitbox01" uid="3">
+                <instance type="hitbox01" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="testChar2" uid="10">
+                <instance type="testChar2" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -113,8 +113,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>590</x>
-                        <y>169</y>
+                        <x>312</x>
+                        <y>177</y>
                         <z>0</z>
                         <width>-48</width>
                         <height>132</height>
@@ -125,7 +125,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DonaldTrump" uid="12">
+                <instance type="DonaldTrump" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -155,6 +155,41 @@
                         <height>166</height>
                         <depth>0</depth>
                         <hotspotX>0.502304137</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HillaryClinton" uid="48">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <holdingLeft>false</holdingLeft>
+                        <holdingRight>false</holdingRight>
+                        <holdingUp>false</holdingUp>
+                        <holdingDown>false</holdingDown>
+                        <attacking>false</attacking>
+                        <hitstun>0</hitstun>
+                        <player>0</player>
+                        <smashMeter>0</smashMeter>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>624</x>
+                        <y>352</y>
+                        <z>0</z>
+                        <width>72.995391846</width>
+                        <height>166</height>
+                        <depth>0</depth>
+                        <hotspotX>0.427272737</hotspotX>
                         <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

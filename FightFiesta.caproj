@@ -8,13 +8,13 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2tot381hs0hwe</unique-id>
-    <saved-with-version>22100</saved-with-version>
+    <saved-with-version>22700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-		<plugin author="Scirra" id="Browser" version="1">Browser</plugin>
-		<plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-		<plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -51,7 +51,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-		<object-folder name="characters">
+        <object-folder name="characters">
             <object-type name="testChar" sid="7949267280400079">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -477,6 +477,103 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="HillaryClinton" sid="5150435871307227">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="5160786895437116" speed="15">
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="8648768430682867" speed="15">
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="2397778287277209" speed="50">
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7711760610396662" speed="25">
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="2558900140630719" speed="22">
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_000.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_001.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_002.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_003.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_004.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_005.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_006.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_008.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7569535047512541" speed="25">
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_004.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_005.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="8043370741128892" speed="25">
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_006.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="player2pin" sid="9059514265716096">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2307211323267513" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="stage tiles">
             <object-type name="Background1" sid="9695385204637594">
@@ -520,7 +617,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-		</object-folder>
+        </object-folder>
         <object-folder name="JG">
             <object-folder name="main">
                 <object-type name="optionControlsJG" sid="8450785352806608">
@@ -871,7 +968,7 @@
         <object-type name="Keyboard" sid="8019349184073425">
             <plugin id="Keyboard" />
         </object-type>
-		<object-type name="Mouse" sid="9910679035708768">
+        <object-type name="Mouse" sid="9910679035708768">
             <plugin id="Mouse" />
         </object-type>
         <object-type name="Function" sid="7024606755764187">
@@ -888,6 +985,7 @@
         <family name="Characters" plugin-id="Sprite" sid="133386739793042">
             <members>
                 <member>DonaldTrump</member>
+                <member>HillaryClinton</member>
                 <member>testChar</member>
                 <member>testChar2</member>
             </members>
@@ -919,6 +1017,7 @@
         <family name="Pins" plugin-id="Sprite" sid="5151592092972034">
             <members>
                 <member>player1pin</member>
+                <member>player2pin</member>
             </members>
             <behaviors>
                 <behavior-type name="Platform" sid="6905819389190943">
@@ -931,24 +1030,23 @@
         <layout>startMenuJG.xml</layout>
         <layout>characterSelectJG.xml</layout>
         <layout>stageSelectJG.xml</layout>
-		<layout>startMenu.xml</layout>
+        <layout>startMenu.xml</layout>
         <layout>allCharacters.xml</layout>
         <layout>stage1.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>main.xml</event-sheet>
         <event-sheet>menusJG.xml</event-sheet>
-		<event-sheet>Movement.xml</event-sheet>
+        <event-sheet>Movement.xml</event-sheet>
         <event-sheet>Game.xml</event-sheet>
         <event-sheet>Controls.xml</event-sheet>
         <event-sheet>Attack.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="5" />
-        <global-instance type="Mouse" uid="6" />
-        <global-instance type="Function" uid="7" />
-        <global-instance type="Browser" uid="8" />
-        <global-instance type="Audio" uid="9" >
+        <global-instance type="Keyboard" uid="43" />
+        <global-instance type="Mouse" uid="44" />
+        <global-instance type="Function" uid="45" />
+        <global-instance type="Browser" uid="46" />
+        <global-instance type="Audio" uid="47">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>

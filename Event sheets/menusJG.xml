@@ -419,6 +419,14 @@
                         <action id="-16" name="Set opacity" sid="5220839727032279" type="flashJG">
                             <param id="0" name="Opacity">100</param>
                         </action>
+                        <action id="-9" name="Set value" sid="7681480294800273" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Value">player1SelectJG.row * 2 + player1SelectJG.column</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5554774162852914" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Value">player2SelectJG.row * 2 + player2SelectJG.column</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="5406684560708648" type="System">
                             <param id="0" name="Layout">stageSelectJG</param>
                         </action>
@@ -1281,6 +1289,9 @@
                         <action id="-41" name="Wait for signal" sid="4976927911303205" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="5717129005417218" type="System">
+                            <param id="0" name="Layout">stage1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="8927163987966221">
@@ -1298,6 +1309,9 @@
                     <actions>
                         <action id="-41" name="Wait for signal" sid="1521222241012973" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="8395008495272096" type="System">
+                            <param id="0" name="Layout">stage1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1317,6 +1331,9 @@
                         <action id="-41" name="Wait for signal" sid="5123423223342191" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="9661946464699207" type="System">
+                            <param id="0" name="Layout">stage1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="5917572067915329">
@@ -1335,6 +1352,9 @@
                         <action id="-41" name="Wait for signal" sid="4472570690484148" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="1686878163866883" type="System">
+                            <param id="0" name="Layout">stage1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="8514796024097671">
@@ -1352,6 +1372,9 @@
                     <actions>
                         <action id="-41" name="Wait for signal" sid="8842848894566646" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="135068467789387" type="System">
+                            <param id="0" name="Layout">stage1</param>
                         </action>
                     </actions>
                 </event-block>
