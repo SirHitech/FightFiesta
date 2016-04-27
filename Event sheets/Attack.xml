@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Attack</name>
+    <events>
+        <comment>Animations</comment>
+        <event-block sid="302386953664489">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="2365785729799074" type="Characters">
+                    <param id="0" name="Instance variable">hitstun</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8706164109205699" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6690966914186431">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8534231810388919" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>P1: On the ground</comment>
+                        <event-block sid="2317147910534588">
+                            <conditions>
+                                <condition behavior="Platform" id="2" name="Is on floor" sid="2759735490472653" type="player1pin" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="849425690437319">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="2426074394545544" type="Keyboard">
+                                            <param id="0" name="Key">81 (Q)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="3947834329250104" type="Characters">
+                                            <param id="0" name="Animation">&quot;StandPunch&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="3050728150948316" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9427555424808757">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="3060437408486282" type="Keyboard">
+                                            <param id="0" name="Key">69 (E)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="7998098673351691" type="Characters">
+                                            <param id="0" name="Animation">&quot;StandKick&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="3598567930916929" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>P1: In the air</comment>
+                        <event-block sid="5296423871760146">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="5281267358290049" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="1961459549460963">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="9431488528999596" type="Keyboard">
+                                            <param id="0" name="Key">81 (Q)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="539427959987773" type="Characters">
+                                            <param id="0" name="Animation">&quot;JumpPunch&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="3233472599072244" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9715346136848162">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="2473368667823514" type="Keyboard">
+                                            <param id="0" name="Key">69 (E)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="4386154173448453" type="Characters">
+                                            <param id="0" name="Animation">&quot;JumpKick&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="4797149889584019" type="Characters">
+                                            <param id="0" name="Instance variable">attacking</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>End Attack Animations</comment>
+        <event-block sid="9382132741944071">
+            <conditions>
+                <condition id="5" name="On any finished" sid="9623918769268433" type="Characters" />
+                <condition id="-8" name="Is boolean instance variable set" sid="9748403367752164" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8566017375736789" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

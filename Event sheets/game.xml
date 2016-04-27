@@ -1,6 +1,230 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>game</name>
-    <events />
+    <name>Game</name>
+    <events>
+        <variable constant="0" name="character1" sid="1741268074105069" static="0" type="number">0</variable>
+        <variable constant="0" name="character2" sid="7749158042631734" static="0" type="number">0</variable>
+        <include>Controls</include>
+        <include>Movement</include>
+        <include>Attack</include>
+        <event-block sid="1536244234274587">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4356655428399539" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4114019031063804">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="546212294420717" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="6920614528630591" type="SpawnPlatform">
+                            <param id="0" name="Object">DonaldTrump</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="7099680145735224" type="DonaldTrump">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="6853114984091397" type="DonaldTrump">
+                            <param id="0" name="X">player1pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="806407721984006" type="DonaldTrump">
+                            <param id="0" name="Y">player1pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="487808423816942" type="DonaldTrump">
+                            <param id="0" name="Pin to">player1pin</param>
+                            <param id="1" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5045739425642128">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1698301040633019" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="4922551892329436" type="SpawnPlatform">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2194397231233428">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9454487429972569" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="9527918441255945" type="SpawnPlatform">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8601781064893517">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5768251419441777" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="4432038096746326" type="SpawnPlatform">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8697419854147155">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2804714159694966" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="7269189802069245" type="SpawnPlatform">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6085727097953634">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3436827351215353" type="System">
+                            <param id="0" name="Variable">character1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="6175931858791728" type="SpawnPlatform">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="614043806096635">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4737021309076729" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="8231507595134605" type="SpawnPlatform2">
+                            <param id="0" name="Object">testChar2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6366401035779411" type="testChar2">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9702470426328941">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2154047790903185" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="264168781376731" type="SpawnPlatform2">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2796666592397186">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6778796069818323" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="6382624053238259" type="SpawnPlatform2">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5437429336102476">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4824518394509654" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="2110231099935727" type="SpawnPlatform2">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1693390614807121">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2783873181061187" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="9979152163622161" type="SpawnPlatform2">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="848273995317552">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6663297276362506" type="System">
+                            <param id="0" name="Variable">character2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="5918265856329569" type="SpawnPlatform2">
+                            <param id="0" name="Object">testChar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
 </c2eventsheet>

@@ -2,7 +2,7 @@
 <c2layout>
     <name>startMenu</name>
     <sid>1291207529631026</sid>
-    <event-sheet>main</event-sheet>
+    <event-sheet></event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
