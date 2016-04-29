@@ -384,16 +384,16 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="4409125662810709" speed="15">
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
-                        <frame duration="1" hotspotX="0.502304" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.460829" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_009.png" />
                     </animation>
                     <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="2207854976869348" speed="15">
                         <frame duration="1" hotspotX="0.501683" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Walk\Walk_000.png" />
@@ -481,52 +481,52 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="5160786895437116" speed="15">
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_000.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_001.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_002.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_003.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_004.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_005.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_006.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_007.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_008.png" />
-                        <frame duration="1" hotspotX="0.427273" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_009.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_009.png" />
                     </animation>
                     <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="8648768430682867" speed="15">
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_000.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_001.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_002.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_003.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_004.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_005.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_006.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_007.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_008.png" />
-                        <frame duration="1" hotspotX="0.4" hotspotY="0.964" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_009.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="2397778287277209" speed="50">
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_000.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_001.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_002.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_003.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_004.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_005.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_006.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_007.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_008.png" />
-                        <frame duration="1" hotspotX="0.414729" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_009.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7711760610396662" speed="25">
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_000.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_001.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_002.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_006.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_007.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_008.png" />
-                        <frame duration="1" hotspotX="0.342756" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_009.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="2558900140630719" speed="22">
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_000.png" />
@@ -541,28 +541,28 @@
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7569535047512541" speed="25">
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_000.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_001.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_002.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_003.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_004.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_005.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_006.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_007.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_008.png" />
-                        <frame duration="1" hotspotX="0.341176" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_009.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_004.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_005.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="8043370741128892" speed="25">
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_000.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_001.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_002.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_003.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_004.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_005.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_006.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_007.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_008.png" />
-                        <frame duration="1" hotspotX="0.285266" hotspotY="0.984" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_009.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_006.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -571,6 +571,166 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2307211323267513" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SpaghettiMan" sid="7740800815218435">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="18558642395549" speed="15">
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.459596" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Idle\Idle_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="8896899352685741" speed="15">
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.417722" hotspotY="0.962" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Walking\Walk_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="7759095703345138" speed="50">
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.431111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump\Jump_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="9299200115614792" speed="25">
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="4414582756552185" speed="22">
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_000.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_001.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_002.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_003.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_004.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_005.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_006.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_008.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="226597289387456" speed="25">
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_004.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_005.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="1968112708521877" speed="25">
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_006.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DonaldTrump2" sid="619141644279941">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="8417585132173945" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Idle\Idle_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="4086184582226021" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Walking\Walk_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="9537418586756957" speed="50">
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump\Jump_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="2255052376172667" speed="25">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="8927128846794951" speed="22">
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_000.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_001.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_002.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_003.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_004.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_005.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_006.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_008.png" />
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_009.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="9668902510769222" speed="25">
+                        <frame duration="1" hotspotX="0.328" hotspotY="1" original-source="C:\Users\keith_000\Desktop\Jump Punch_009.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="3592067359170619" speed="25">
+                        <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -985,7 +1145,9 @@
         <family name="Characters" plugin-id="Sprite" sid="133386739793042">
             <members>
                 <member>DonaldTrump</member>
+                <member>DonaldTrump2</member>
                 <member>HillaryClinton</member>
+                <member>SpaghettiMan</member>
                 <member>testChar</member>
                 <member>testChar2</member>
             </members>

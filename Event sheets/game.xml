@@ -22,7 +22,27 @@
                             <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="8644506544585905" type="SpawnPlatform">
+                            <param id="0" name="Object">SpaghettiMan</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="8912801675839061" type="SpaghettiMan">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="5903106661344414" type="SpaghettiMan">
+                            <param id="0" name="X">player1pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="7565585767576631" type="SpaghettiMan">
+                            <param id="0" name="Y">player1pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="9036637387280938" type="SpaghettiMan">
+                            <param id="0" name="Pin to">player1pin</param>
+                            <param id="1" name="Mode">1</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="5045739425642128">
                     <conditions>
@@ -33,10 +53,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="4922551892329436" type="SpawnPlatform">
-                            <param id="0" name="Object">testChar</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="407088865925736" type="SpawnPlatform">
+                            <param id="0" name="Object">SpaghettiMan</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="9478853816046826" type="SpaghettiMan">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="7851735363675764" type="SpaghettiMan">
+                            <param id="0" name="X">player1pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="4481912901877042" type="SpaghettiMan">
+                            <param id="0" name="Y">player1pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="1985450784472138" type="SpaghettiMan">
+                            <param id="0" name="Pin to">player1pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -51,7 +85,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="5301290676409278" type="SpawnPlatform">
                             <param id="0" name="Object">DonaldTrump</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-10" name="Set value" sid="1761832406796478" type="DonaldTrump">
@@ -81,7 +115,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="8160241610444542" type="SpawnPlatform">
                             <param id="0" name="Object">HillaryClinton</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-10" name="Set value" sid="5078008780286737" type="HillaryClinton">
@@ -141,14 +175,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="8231507595134605" type="SpawnPlatform2">
-                            <param id="0" name="Object">testChar2</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="7737975937616148" type="SpawnPlatform2">
+                            <param id="0" name="Object">SpaghettiMan</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="6366401035779411" type="testChar2">
+                        <action id="-10" name="Set value" sid="4425174590930725" type="SpaghettiMan">
                             <param id="0" name="Instance variable">player</param>
                             <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="3342522603827255" type="SpaghettiMan">
+                            <param id="0" name="X">player2pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="347126213690837" type="SpaghettiMan">
+                            <param id="0" name="Y">player2pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="3639599023625433" type="SpaghettiMan">
+                            <param id="0" name="Pin to">player2pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -161,10 +205,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="264168781376731" type="SpawnPlatform2">
-                            <param id="0" name="Object">testChar</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="8385672407878935" type="SpawnPlatform2">
+                            <param id="0" name="Object">SpaghettiMan</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6736079509619885" type="SpaghettiMan">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="2478231531948525" type="SpaghettiMan">
+                            <param id="0" name="X">player2pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="3545809543176545" type="SpaghettiMan">
+                            <param id="0" name="Y">player2pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="3929759451365556" type="SpaghettiMan">
+                            <param id="0" name="Pin to">player2pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -179,7 +237,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="9711045823933492" type="SpawnPlatform2">
                             <param id="0" name="Object">DonaldTrump</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-10" name="Set value" sid="1929893118273894" type="DonaldTrump">
@@ -209,7 +267,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="291152423586077" type="SpawnPlatform2">
                             <param id="0" name="Object">HillaryClinton</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-10" name="Set value" sid="8240117132833851" type="HillaryClinton">

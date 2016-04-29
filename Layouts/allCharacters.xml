@@ -148,13 +148,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>409</x>
-                        <y>429</y>
+                        <x>469</x>
+                        <y>515</y>
                         <z>0</z>
                         <width>72</width>
                         <height>166</height>
                         <depth>0</depth>
-                        <hotspotX>0.502304137</hotspotX>
+                        <hotspotX>0.460829496</hotspotX>
                         <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -183,14 +183,84 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>624</x>
-                        <y>352</y>
+                        <x>590</x>
+                        <y>518</y>
                         <z>0</z>
-                        <width>72.995391846</width>
+                        <width>72</width>
                         <height>166</height>
                         <depth>0</depth>
-                        <hotspotX>0.427272737</hotspotX>
+                        <hotspotX>0.454545468</hotspotX>
                         <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SpaghettiMan" uid="50">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <holdingLeft>false</holdingLeft>
+                        <holdingRight>false</holdingRight>
+                        <holdingUp>false</holdingUp>
+                        <holdingDown>false</holdingDown>
+                        <attacking>false</attacking>
+                        <hitstun>0</hitstun>
+                        <player>0</player>
+                        <smashMeter>0</smashMeter>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>467</x>
+                        <y>249</y>
+                        <z>0</z>
+                        <width>72</width>
+                        <height>166</height>
+                        <depth>0</depth>
+                        <hotspotX>0.459595948</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="DonaldTrump2" uid="51">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <holdingLeft>false</holdingLeft>
+                        <holdingRight>false</holdingRight>
+                        <holdingUp>false</holdingUp>
+                        <holdingDown>false</holdingDown>
+                        <attacking>false</attacking>
+                        <hitstun>0</hitstun>
+                        <player>0</player>
+                        <smashMeter>0</smashMeter>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>604</x>
+                        <y>246</y>
+                        <z>0</z>
+                        <width>71.668205261</width>
+                        <height>166</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
