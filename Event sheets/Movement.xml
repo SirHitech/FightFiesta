@@ -40,12 +40,16 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="7506030326058358">
+                        <event-block sid="6264200412979574">
                             <conditions>
-                                <condition id="-22" name="Else" sid="7943397305144569" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="7463628457712774" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="2763364700181494" type="player2pin">
+                                <action behavior="Platform" id="7" name="Simulate control" sid="2358583127506402" type="player2pin">
                                     <param id="0" name="Control">0</param>
                                 </action>
                             </actions>
@@ -74,12 +78,16 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="9385455484875401">
+                        <event-block sid="8380085631894289">
                             <conditions>
-                                <condition id="-22" name="Else" sid="5697165056232394" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="6845254702605717" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="3419898550519477" type="player2pin">
+                                <action behavior="Platform" id="7" name="Simulate control" sid="261866730583603" type="player2pin">
                                     <param id="0" name="Control">1</param>
                                 </action>
                             </actions>
@@ -214,32 +222,53 @@
                                 </condition>
                                 <condition behavior="Platform" id="2" name="Is on floor" sid="1169050094253566" type="player1pin" />
                             </conditions>
-                            <actions>
-                                <action id="4" name="Set animation" sid="3148901302253876" type="Characters">
-                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="6" name="Set speed" sid="8174569096909105" type="Characters">
-                                    <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
                                 <event-block sid="7953473557178141">
                                     <conditions>
-                                        <condition id="3" name="Compare frame" sid="9718632722523913" type="Characters">
-                                            <param id="0" name="Comparison">0</param>
-                                            <param id="1" name="Number">0</param>
-                                        </condition>
-                                        <condition id="7" inverted="1" name="Is mirrored" sid="6116735527047129" type="Characters" />
+                                        <condition id="7" name="Is mirrored" sid="6116735527047129" type="Characters" />
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Wait" sid="3840790207780469" type="System">
-                                            <param id="0" name="Seconds">0.01</param>
+                                        <action id="4" name="Set animation" sid="3148901302253876" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
                                         </action>
-                                        <action id="5" name="Set frame" sid="3407606787943407" type="Characters">
-                                            <param id="0" name="Frame number">9</param>
+                                        <action id="6" name="Set speed" sid="8174569096909105" type="Characters">
+                                            <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
                                         </action>
                                     </actions>
+                                </event-block>
+                                <event-block sid="2485607653028924">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="9448930078359536" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="4768701927015861" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="6" name="Set speed" sid="8370118430590604" type="Characters">
+                                            <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="7249808771053307">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="3711269123380352" type="Characters">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-16" name="Wait" sid="1638053139215202" type="System">
+                                                    <param id="0" name="Seconds">0.01</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="584152638234682" type="Characters">
+                                                    <param id="0" name="Frame number">9</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -255,32 +284,53 @@
                                 </condition>
                                 <condition behavior="Platform" id="2" name="Is on floor" sid="7410909617322329" type="player2pin" />
                             </conditions>
-                            <actions>
-                                <action id="4" name="Set animation" sid="2114667285488268" type="Characters">
-                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="6" name="Set speed" sid="447215591744154" type="Characters">
-                                    <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
-                                <event-block sid="4047427609876884">
+                                <event-block sid="2930664808500829">
                                     <conditions>
-                                        <condition id="3" name="Compare frame" sid="8772890192195181" type="Characters">
-                                            <param id="0" name="Comparison">0</param>
-                                            <param id="1" name="Number">0</param>
-                                        </condition>
-                                        <condition id="7" inverted="1" name="Is mirrored" sid="5210293988639484" type="Characters" />
+                                        <condition id="7" name="Is mirrored" sid="3003929173286851" type="Characters" />
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Wait" sid="9126110911334213" type="System">
-                                            <param id="0" name="Seconds">0.01</param>
+                                        <action id="4" name="Set animation" sid="6194594127540622" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
                                         </action>
-                                        <action id="5" name="Set frame" sid="5006027124343198" type="Characters">
-                                            <param id="0" name="Frame number">9</param>
+                                        <action id="6" name="Set speed" sid="2841785968669143" type="Characters">
+                                            <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
                                         </action>
                                     </actions>
+                                </event-block>
+                                <event-block sid="5516837906708502">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="1882995024895988" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="3678062985159235" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="6" name="Set speed" sid="7528767844743244" type="Characters">
+                                            <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="6484735095824473">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="4862511164420159" type="Characters">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-16" name="Wait" sid="9923391604891553" type="System">
+                                                    <param id="0" name="Seconds">0.01</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="5182353450454098" type="Characters">
+                                                    <param id="0" name="Frame number">9</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -306,30 +356,51 @@
                                 </condition>
                                 <condition behavior="Platform" id="2" name="Is on floor" sid="5463455024498692" type="player1pin" />
                             </conditions>
-                            <actions>
-                                <action id="4" name="Set animation" sid="2683993157629298" type="Characters">
-                                    <param id="0" name="Animation">&quot;Walk&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="6" name="Set speed" sid="3046471124550864" type="Characters">
-                                    <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
-                                <event-block disabled="1" sid="9070215880942566">
+                                <event-block sid="996433199017954">
                                     <conditions>
-                                        <condition id="3" name="Compare frame" sid="3667650308416231" type="Characters">
-                                            <param id="0" name="Comparison">0</param>
-                                            <param id="1" name="Number">0</param>
-                                        </condition>
-                                        <condition id="7" name="Is mirrored" sid="4148665529318822" type="Characters" />
+                                        <condition id="7" name="Is mirrored" sid="6378202364572539" type="Characters" />
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Wait" sid="6873555962236179" type="System">
-                                            <param id="0" name="Seconds">0.01</param>
+                                        <action id="4" name="Set animation" sid="1169720750532819" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
                                         </action>
-                                        <action id="5" name="Set frame" sid="7861932750237803" type="Characters">
-                                            <param id="0" name="Frame number">9</param>
+                                        <action id="6" name="Set speed" sid="6539823797871718" type="Characters">
+                                            <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="4186234621078763">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="3964055550683625" type="Characters">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-16" name="Wait" sid="403774659624674" type="System">
+                                                    <param id="0" name="Seconds">0.01</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="4493055795676723" type="Characters">
+                                                    <param id="0" name="Frame number">9</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="529625921990363">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="5638415435260875" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="5824028938738603" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="6" name="Set speed" sid="5010688422976025" type="Characters">
+                                            <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -357,20 +428,49 @@
                                 </action>
                             </actions>
                             <sub-events>
-                                <event-block disabled="1" sid="993986838103092">
+                                <event-block sid="8205815238193434">
                                     <conditions>
-                                        <condition id="3" name="Compare frame" sid="9112847759075925" type="Characters">
-                                            <param id="0" name="Comparison">0</param>
-                                            <param id="1" name="Number">0</param>
-                                        </condition>
-                                        <condition id="7" name="Is mirrored" sid="3580363102210731" type="Characters" />
+                                        <condition id="7" name="Is mirrored" sid="2661399000151496" type="Characters" />
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Wait" sid="7975099172772925" type="System">
-                                            <param id="0" name="Seconds">0.01</param>
+                                        <action id="4" name="Set animation" sid="7282586231661016" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
                                         </action>
-                                        <action id="5" name="Set frame" sid="8004773774277373" type="Characters">
-                                            <param id="0" name="Frame number">9</param>
+                                        <action id="6" name="Set speed" sid="2220589806572665" type="Characters">
+                                            <param id="0" name="Speed">-1 * abs(Characters.AnimationSpeed)</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="3878402205327921">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="9831013554467062" type="Characters">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-16" name="Wait" sid="1429038710560455" type="System">
+                                                    <param id="0" name="Seconds">0.01</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="5491101872009478" type="Characters">
+                                                    <param id="0" name="Frame number">9</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="5691688599272676">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="8264400022273328" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="3000286595135679" type="Characters">
+                                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="6" name="Set speed" sid="4974983896662832" type="Characters">
+                                            <param id="0" name="Speed">abs(Characters.AnimationSpeed)</param>
                                         </action>
                                     </actions>
                                 </event-block>

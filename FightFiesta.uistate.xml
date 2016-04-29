@@ -10,13 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">characterSelectJG</layout>
+        <layout order="0">characterSelectJG</layout>
         <layout order="1">stageSelectJG</layout>
         <layout order="4">allCharacters</layout>
         <layout order="6">stage1</layout>
         <event-sheet order="2">menusJG</event-sheet>
         <event-sheet order="3">Game</event-sheet>
-        <event-sheet order="5">Controls</event-sheet>
+        <event-sheet active="1" order="5">Controls</event-sheet>
         <event-sheet order="7">Movement</event-sheet>
         <event-sheet order="8">Attack</event-sheet>
     </open-tabs>
