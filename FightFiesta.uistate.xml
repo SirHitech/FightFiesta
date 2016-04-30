@@ -33,7 +33,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/characters/" />
+        <folder expanded="0" path="object-folder/characters/" />
         <folder expanded="0" path="object-folder/stage tiles/" />
         <folder expanded="0" path="object-folder/hitboxes/" />
         <folder expanded="0" path="object-folder/platforms/" />
@@ -57,7 +57,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/ProfessorPizza/" />
         <folder expanded="1" path="animation-folder/SoldierCurtis/" />
         <folder expanded="1" path="animation-folder/SkeletonJoe/" />
-        <folder expanded="1" path="animation-folder/hitbox01/" />
+        <folder expanded="1" path="animation-folder/hitboxPunch/" />
+        <folder expanded="1" path="animation-folder/hitboxKick/" />
+        <folder expanded="1" path="animation-folder/hitboxJumpPunch/" />
+        <folder expanded="1" path="animation-folder/hitboxJumpKick/" />
         <folder expanded="1" path="animation-folder/SpawnPlatform/" />
         <folder expanded="1" path="animation-folder/SpawnPlatform2/" />
         <folder expanded="1" path="animation-folder/logoJG/" />

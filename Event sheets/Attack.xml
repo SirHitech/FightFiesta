@@ -230,5 +230,382 @@
                 </action>
             </actions>
         </event-block>
+        <comment>Set Hitboxes</comment>
+        <event-block sid="1890471414447561">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="1745910468196432" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>StandPunch</comment>
+                <event-block sid="1246657150840843">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="1953444986599093" type="Characters">
+                            <param id="0" name="Animation">&quot;StandPunch&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6361270250708694">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="7337138662589591" type="Characters">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="3242580019496815" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="7091576892772923" type="Characters">
+                                    <param id="0" name="Object">hitboxPunch</param>
+                                    <param id="1" name="Layer">5</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="192721805463175" type="hitboxPunch">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Value">Characters.player</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8717321560413096">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="2484275712960457" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="2455779507991517" type="Characters">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="8503855698215465" type="hitboxPunch">
+                                    <param id="0" name="Object">Characters</param>
+                                    <param id="1" name="Image point (optional)">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3095772760246337">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="695967905497313" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="9025929399887864" type="hitboxPunch" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>StandKick</comment>
+                <event-block sid="60195433347561">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="4512100012828914" type="Characters">
+                            <param id="0" name="Animation">&quot;StandKick&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6437147568289118">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="9967244673216052" type="Characters">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="4906856140006566" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="8830162588383423" type="Characters">
+                                    <param id="0" name="Object">hitboxKick</param>
+                                    <param id="1" name="Layer">5</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="9898943308356302" type="hitboxKick">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Value">Characters.player</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6114102886208711">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="1848005956566135" type="Characters">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="601310286408381" type="hitboxKick">
+                                    <param id="0" name="Object">Characters</param>
+                                    <param id="1" name="Image point (optional)">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7843597159790223">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="7095580476567054" type="Characters">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="3161921590417207" type="hitboxKick" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>JumpPunch</comment>
+                <event-block sid="8331150119123399">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="4335163570480122" type="Characters">
+                            <param id="0" name="Animation">&quot;JumpPunch&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="5124142861480053">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="2809666735769772" type="Characters">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="9267868044265472" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="5886013096137041" type="Characters">
+                                    <param id="0" name="Object">hitboxJumpPunch</param>
+                                    <param id="1" name="Layer">5</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="2066414462573104" type="hitboxJumpPunch">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Value">Characters.player</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7604395562025082">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="2600577424320705" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="8444457026974574" type="Characters">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="8548460698150792" type="hitboxJumpPunch">
+                                    <param id="0" name="Object">Characters</param>
+                                    <param id="1" name="Image point (optional)">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="817584057594697">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="7551654556611254" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="278483878750503" type="hitboxJumpPunch" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>JumpKick</comment>
+                <event-block sid="9695375938822206">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="313359966158328" type="Characters">
+                            <param id="0" name="Animation">&quot;JumpKick&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="3787890977224346">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="2634582352608698" type="Characters">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="4573237011956648" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="8321823475600355" type="Characters">
+                                    <param id="0" name="Object">hitboxJumpKick</param>
+                                    <param id="1" name="Layer">5</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="3767121065237993" type="hitboxJumpKick">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Value">Characters.player</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3153771007930286">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="8422819530179" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="985812934510461" type="Characters">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Number">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="9647763333664712" type="hitboxJumpKick">
+                                    <param id="0" name="Object">Characters</param>
+                                    <param id="1" name="Image point (optional)">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="185309799029684">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="9775538934573645" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="399231680216216" type="hitboxJumpKick" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="2729109547637272" title="Hitbox Collision">
+            <sub-events>
+                <event-block sid="3831612033298017">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="4494554123691773" type="Hitboxes">
+                            <param id="0" name="Object">player1pin</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="5907156009081471" type="Hitboxes">
+                            <param id="0" name="Instance variable">active</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2593773181072262" type="Hitboxes">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="5626834066594862" type="Hitboxes">
+                            <param id="0" name="Instance variable">active</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="4970813506224875">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="4240006544755282" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="9" name="Set vector Y" sid="345809901799722" type="player1pin">
+                                    <param id="0" name="Vector Y">-1 * Hitboxes.knockback</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="2066840440147442" type="Characters">
+                                    <param id="0" name="Instance variable">percent</param>
+                                    <param id="1" name="Value">Hitboxes.damage</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="2840249786330823">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="4846839584391997" type="Characters" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="8" name="Set vector X" sid="2862181844002726" type="player1pin">
+                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="7606199656133273">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="6624680011761958" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="8" name="Set vector X" sid="4640087398454612" type="player1pin">
+                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback * -1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6683266291158386">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="4392328885064813" type="Hitboxes">
+                            <param id="0" name="Object">player2pin</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="5824503085497328" type="Hitboxes">
+                            <param id="0" name="Instance variable">active</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="1803348336062332" type="Hitboxes">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="9095193387454751" type="Hitboxes">
+                            <param id="0" name="Instance variable">active</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8804355843886346">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9053194714792112" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="9" name="Set vector Y" sid="1237240708256576" type="player2pin">
+                                    <param id="0" name="Vector Y">-1 * Hitboxes.knockback</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="8367034100046496" type="Characters">
+                                    <param id="0" name="Instance variable">percent</param>
+                                    <param id="1" name="Value">Hitboxes.damage</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="9386651050162768">
+                                    <conditions>
+                                        <condition id="7" name="Is mirrored" sid="3522071471205536" type="Characters" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="8" name="Set vector X" sid="8912063841329642" type="player2pin">
+                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9919616343110229">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="7945702875757543" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="8" name="Set vector X" sid="7530921533092778" type="player2pin">
+                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback * -1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

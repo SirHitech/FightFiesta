@@ -839,5 +839,41 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-group description="" sid="2431114109507913" title="Deceleration">
+            <sub-events>
+                <event-block sid="2105229017985605">
+                    <conditions>
+                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="1769026504767718" type="Pins" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="3" name="Set deceleration" sid="9190118342365073" type="Pins">
+                            <param id="0" name="Deceleration">10</param>
+                        </action>
+                        <action behavior="Platform" id="1" name="Set max speed" sid="122452804305617" type="Pins">
+                            <param id="0" name="Max Speed">10000</param>
+                        </action>
+                        <action behavior="Platform" id="2" name="Set acceleration" sid="7074283891276866" type="Pins">
+                            <param id="0" name="Acceleration">30</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6496384089079299">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="468604973925602" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="3" name="Set deceleration" sid="5298041798843855" type="Pins">
+                            <param id="0" name="Deceleration">1000</param>
+                        </action>
+                        <action behavior="Platform" id="1" name="Set max speed" sid="4038331612272634" type="Pins">
+                            <param id="0" name="Max Speed">300</param>
+                        </action>
+                        <action behavior="Platform" id="2" name="Set acceleration" sid="6277824367642724" type="Pins">
+                            <param id="0" name="Acceleration">1500</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
