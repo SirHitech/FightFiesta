@@ -265,7 +265,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DonaldTrump2" uid="52">
+                <instance type="SoldierCurtis" uid="52">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -295,6 +295,41 @@
                         <height>166</height>
                         <depth>0</depth>
                         <hotspotX>0.439461887</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SkeletonJoe" uid="53">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <holdingLeft>false</holdingLeft>
+                        <holdingRight>false</holdingRight>
+                        <holdingUp>false</holdingUp>
+                        <holdingDown>false</holdingDown>
+                        <attacking>false</attacking>
+                        <hitstun>0</hitstun>
+                        <player>0</player>
+                        <smashMeter>0</smashMeter>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>642</x>
+                        <y>735</y>
+                        <z>0</z>
+                        <width>77.972351074</width>
+                        <height>166</height>
+                        <depth>0</depth>
+                        <hotspotX>0.459574461</hotspotX>
                         <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
