@@ -55,6 +55,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/player2pin/" />
         <folder expanded="1" path="animation-folder/SpaghettiMan/" />
         <folder expanded="1" path="animation-folder/ProfessorPizza/" />
+        <folder expanded="1" path="animation-folder/DonaldTrump2/" />
         <folder expanded="1" path="animation-folder/hitbox01/" />
         <folder expanded="1" path="animation-folder/SpawnPlatform/" />
         <folder expanded="1" path="animation-folder/SpawnPlatform2/" />

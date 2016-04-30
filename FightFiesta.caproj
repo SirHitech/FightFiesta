@@ -752,6 +752,95 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="DonaldTrump2" sid="7648229204296664">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="10" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="6959942100405126" speed="15">
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_000.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_001.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_002.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_003.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_004.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_005.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_006.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_007.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_008.png" />
+                        <frame duration="1" hotspotX="0.439462" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Idle\Idle_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="2462206202274006" speed="15">
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.392593" hotspotY="0.986" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Walking\Walk_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="4663507787929219" speed="50">
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_000.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_001.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_002.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_003.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_004.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_005.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_006.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_007.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_008.png" />
+                        <frame duration="1" hotspotX="0.346154" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump\Jump_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandPunch" pingpong="0" repeatcount="1" repeatto="0" sid="4565781922208469" speed="25">
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_000.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_001.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_002.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_003.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_004.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_005.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_007.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_008.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="StandKick" pingpong="0" repeatcount="1" repeatto="0" sid="296696038164474" speed="22">
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_000.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_001.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_002.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_003.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_004.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_005.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_006.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_008.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="7364640532749387" speed="25">
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_004.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_005.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="4366574706766542" speed="25">
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_006.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="stage tiles">
             <object-type name="Background1" sid="9695385204637594">
@@ -1163,6 +1252,7 @@
         <family name="Characters" plugin-id="Sprite" sid="133386739793042">
             <members>
                 <member>DonaldTrump</member>
+                <member>DonaldTrump2</member>
                 <member>HillaryClinton</member>
                 <member>ProfessorPizza</member>
                 <member>SpaghettiMan</member>

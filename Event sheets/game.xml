@@ -143,10 +143,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="7269189802069245" type="SpawnPlatform">
-                            <param id="0" name="Object">testChar</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="3283598669832988" type="SpawnPlatform">
+                            <param id="0" name="Object">DonaldTrump2</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="4596257294308158" type="DonaldTrump2">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="6071093874825724" type="DonaldTrump2">
+                            <param id="0" name="X">player1pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="998252533937151" type="DonaldTrump2">
+                            <param id="0" name="Y">player1pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="2433250050203672" type="DonaldTrump2">
+                            <param id="0" name="Pin to">player1pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -159,10 +173,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="6175931858791728" type="SpawnPlatform">
-                            <param id="0" name="Object">testChar</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="5153299802158983" type="SpawnPlatform">
+                            <param id="0" name="Object">DonaldTrump2</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6854199839500797" type="DonaldTrump2">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="6447809179024598" type="DonaldTrump2">
+                            <param id="0" name="X">player1pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="3995642310886391" type="DonaldTrump2">
+                            <param id="0" name="Y">player1pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="5701432653709249" type="DonaldTrump2">
+                            <param id="0" name="Pin to">player1pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -295,10 +323,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="9979152163622161" type="SpawnPlatform2">
-                            <param id="0" name="Object">testChar</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="8484701691550645" type="SpawnPlatform2">
+                            <param id="0" name="Object">DonaldTrump2</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="3119913506673529" type="DonaldTrump2">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="361393073949455" type="DonaldTrump2">
+                            <param id="0" name="X">player2pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="865386652069571" type="DonaldTrump2">
+                            <param id="0" name="Y">player2pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="5345269524225112" type="DonaldTrump2">
+                            <param id="0" name="Pin to">player2pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -311,10 +353,24 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="5918265856329569" type="SpawnPlatform2">
-                            <param id="0" name="Object">testChar</param>
-                            <param id="1" name="Layer">0</param>
+                        <action id="0" name="Spawn another object" sid="492770126349875" type="SpawnPlatform2">
+                            <param id="0" name="Object">DonaldTrump2</param>
+                            <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="232909250791291" type="DonaldTrump2">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="9503429439194518" type="DonaldTrump2">
+                            <param id="0" name="X">player2pin.X</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="7648453867437223" type="DonaldTrump2">
+                            <param id="0" name="Y">player2pin.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="1928736211212018" type="DonaldTrump2">
+                            <param id="0" name="Pin to">player2pin</param>
+                            <param id="1" name="Mode">1</param>
                         </action>
                     </actions>
                 </event-block>
