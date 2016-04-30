@@ -54,21 +54,21 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Spawn another object" sid="407088865925736" type="SpawnPlatform">
-                            <param id="0" name="Object">SpaghettiMan</param>
+                            <param id="0" name="Object">ProfessorPizza</param>
                             <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="9478853816046826" type="SpaghettiMan">
+                        <action id="-10" name="Set value" sid="9478853816046826" type="ProfessorPizza">
                             <param id="0" name="Instance variable">player</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-1" name="Set X" sid="7851735363675764" type="SpaghettiMan">
+                        <action id="-1" name="Set X" sid="7851735363675764" type="ProfessorPizza">
                             <param id="0" name="X">player1pin.X</param>
                         </action>
-                        <action id="-2" name="Set Y" sid="4481912901877042" type="SpaghettiMan">
+                        <action id="-2" name="Set Y" sid="4481912901877042" type="ProfessorPizza">
                             <param id="0" name="Y">player1pin.Y</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="1985450784472138" type="SpaghettiMan">
+                        <action behavior="Pin" id="0" name="Pin to object" sid="1985450784472138" type="ProfessorPizza">
                             <param id="0" name="Pin to">player1pin</param>
                             <param id="1" name="Mode">1</param>
                         </action>
@@ -206,21 +206,21 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Spawn another object" sid="8385672407878935" type="SpawnPlatform2">
-                            <param id="0" name="Object">SpaghettiMan</param>
+                            <param id="0" name="Object">ProfessorPizza</param>
                             <param id="1" name="Layer">3</param>
                             <param id="2" name="Image point">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="6736079509619885" type="SpaghettiMan">
+                        <action id="-10" name="Set value" sid="6736079509619885" type="ProfessorPizza">
                             <param id="0" name="Instance variable">player</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-1" name="Set X" sid="2478231531948525" type="SpaghettiMan">
+                        <action id="-1" name="Set X" sid="2478231531948525" type="ProfessorPizza">
                             <param id="0" name="X">player2pin.X</param>
                         </action>
-                        <action id="-2" name="Set Y" sid="3545809543176545" type="SpaghettiMan">
+                        <action id="-2" name="Set Y" sid="3545809543176545" type="ProfessorPizza">
                             <param id="0" name="Y">player2pin.Y</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="3929759451365556" type="SpaghettiMan">
+                        <action behavior="Pin" id="0" name="Pin to object" sid="3929759451365556" type="ProfessorPizza">
                             <param id="0" name="Pin to">player2pin</param>
                             <param id="1" name="Mode">1</param>
                         </action>
