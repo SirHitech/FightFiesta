@@ -859,7 +859,7 @@
                 </event-block>
                 <event-block sid="6496384089079299">
                     <conditions>
-                        <condition id="-22" name="Else" sid="468604973925602" type="System" />
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="2211027006986577" type="Pins" />
                     </conditions>
                     <actions>
                         <action behavior="Platform" id="3" name="Set deceleration" sid="5298041798843855" type="Pins">
