@@ -1438,6 +1438,8 @@
         <layout>startMenuJG.xml</layout>
         <layout>characterSelectJG.xml</layout>
         <layout>stageSelectJG.xml</layout>
+        <layout>controlsMenuJG.xml</layout>
+        <layout>creditsMenuJG.xml</layout>
         <layout>startMenu.xml</layout>
         <layout>allCharacters.xml</layout>
         <layout>stage1.xml</layout>

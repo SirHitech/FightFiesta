@@ -270,6 +270,9 @@
                         <action id="-41" name="Wait for signal" sid="3039619264058405" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="3696173861333381" type="System">
+                            <param id="0" name="Layout">controlsMenuJG</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="3847988303627761">
@@ -287,6 +290,9 @@
                     <actions>
                         <action id="-41" name="Wait for signal" sid="2435579105397199" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="9588678479214633" type="System">
+                            <param id="0" name="Layout">creditsMenuJG</param>
                         </action>
                     </actions>
                 </event-block>
