@@ -1450,6 +1450,7 @@
         <event-sheet>Game.xml</event-sheet>
         <event-sheet>Controls.xml</event-sheet>
         <event-sheet>Attack.xml</event-sheet>
+        <event-sheet>Camera.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="43" />

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Camera</name>
+    <events>
+        <variable constant="0" name="maxScaleCamera" sid="8394492683874794" static="0" type="number">1</variable>
+        <variable constant="0" name="marginCamera" sid="8626659968042386" static="0" type="number">10</variable>
+        <variable constant="0" name="heightCamera" sid="7351207277822246" static="0" type="number">0</variable>
+        <variable constant="0" name="widthCamera" sid="6640825411437145" static="0" type="number">0</variable>
+        <variable constant="0" name="leftCamera" sid="7410820627491719" static="0" type="number">9999</variable>
+        <variable constant="0" name="topCamera" sid="7306890237187743" static="0" type="number">9999</variable>
+        <variable constant="0" name="bottomCamera" sid="3753811933856373" static="0" type="number">0</variable>
+        <variable constant="0" name="rightCamera" sid="3362755918773753" static="0" type="number">0</variable>
+        <event-block sid="599996554840222">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="3274664382257982" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7695809825555643">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="3452237412733293" type="System">
+                            <param id="0" name="Variable">topCamera</param>
+                            <param id="1" name="Value">min(topCamera, player1pin.BBoxTop)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="636076211647169" type="System">
+                            <param id="0" name="Variable">bottomCamera</param>
+                            <param id="1" name="Value">max(bottomCamera, player1pin.BBoxBottom)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1588965562109726" type="System">
+                            <param id="0" name="Variable">leftCamera</param>
+                            <param id="1" name="Value">min(leftCamera, player1pin.BBoxLeft)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4584132583924448" type="System">
+                            <param id="0" name="Variable">rightCamera</param>
+                            <param id="1" name="Value">max(rightCamera, player1pin.BBoxRight)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="8222041997380643" type="System">
+                            <param id="0" name="Variable">topCamera</param>
+                            <param id="1" name="Value">min(topCamera, player2pin.BBoxTop)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3479015381956926" type="System">
+                            <param id="0" name="Variable">bottomCamera</param>
+                            <param id="1" name="Value">max(bottomCamera, player2pin.BBoxBottom)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="899358874188658" type="System">
+                            <param id="0" name="Variable">leftCamera</param>
+                            <param id="1" name="Value">min(leftCamera, player2pin.BBoxLeft)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7237846403744007" type="System">
+                            <param id="0" name="Variable">rightCamera</param>
+                            <param id="1" name="Value">max(rightCamera, player2pin.BBoxRight)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1964856831534437">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="1335503056183556" type="System">
+                            <param id="0" name="Variable">widthCamera</param>
+                            <param id="1" name="Value">rightCamera - leftCamera + marginCamera</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7029939294767431" type="System">
+                            <param id="0" name="Variable">heightCamera</param>
+                            <param id="1" name="Value">bottomCamera - topCamera + marginCamera</param>
+                        </action>
+                        <action id="-20" name="Set layout scale" sid="5392294591128666" type="System">
+                            <param id="0" name="Scale">min((widthCamera/heightCamera &lt; WindowWidth/WindowHeight) ? WindowHeight/heightCamera : WindowWidth/widthCamera, maxScaleCamera)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4967026057930072">
+                    <conditions />
+                    <actions>
+                        <action id="-7" name="Scroll to position" sid="5886209413727995" type="System">
+                            <param id="0" name="X">lerp(leftCamera, rightCamera, 0.5)</param>
+                            <param id="1" name="Y">lerp(bottomCamera, topCamera, 0.5)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

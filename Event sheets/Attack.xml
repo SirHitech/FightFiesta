@@ -516,6 +516,10 @@
                                     <param id="0" name="Instance variable">percent</param>
                                     <param id="1" name="Value">Hitboxes.damage</param>
                                 </action>
+                                <action id="-10" name="Set value" sid="4974601361785007" type="Characters">
+                                    <param id="0" name="Instance variable">hitstun</param>
+                                    <param id="1" name="Value">Hitboxes.damage * Characters.percent/100</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="2840249786330823">
@@ -578,6 +582,10 @@
                                 <action id="-11" name="Add to" sid="8367034100046496" type="Characters">
                                     <param id="0" name="Instance variable">percent</param>
                                     <param id="1" name="Value">Hitboxes.damage</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="6829864998951097" type="Characters">
+                                    <param id="0" name="Instance variable">hitstun</param>
+                                    <param id="1" name="Value">Hitboxes.damage * Characters.percent/100</param>
                                 </action>
                             </actions>
                             <sub-events>
