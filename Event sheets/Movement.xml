@@ -861,13 +861,13 @@
                                 <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="1769026504767718" type="player1pin" />
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="3" name="Set deceleration" sid="9190118342365073" type="Pins">
+                                <action behavior="Platform" id="3" name="Set deceleration" sid="9190118342365073" type="player1pin">
                                     <param id="0" name="Deceleration">10</param>
                                 </action>
-                                <action behavior="Platform" id="1" name="Set max speed" sid="122452804305617" type="Pins">
+                                <action behavior="Platform" id="1" name="Set max speed" sid="122452804305617" type="player1pin">
                                     <param id="0" name="Max Speed">10000</param>
                                 </action>
-                                <action behavior="Platform" id="2" name="Set acceleration" sid="7074283891276866" type="Pins">
+                                <action behavior="Platform" id="2" name="Set acceleration" sid="7074283891276866" type="player1pin">
                                     <param id="0" name="Acceleration">30</param>
                                 </action>
                             </actions>
@@ -882,13 +882,13 @@
                                 <condition behavior="Platform" id="2" name="Is on floor" sid="2071229155991713" type="player1pin" />
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="3" name="Set deceleration" sid="1527879656053966" type="Pins">
+                                <action behavior="Platform" id="3" name="Set deceleration" sid="1527879656053966" type="player1pin">
                                     <param id="0" name="Deceleration">1000</param>
                                 </action>
-                                <action behavior="Platform" id="1" name="Set max speed" sid="1262761183523373" type="Pins">
+                                <action behavior="Platform" id="1" name="Set max speed" sid="1262761183523373" type="player1pin">
                                     <param id="0" name="Max Speed">300</param>
                                 </action>
-                                <action behavior="Platform" id="2" name="Set acceleration" sid="4381622359681832" type="Pins">
+                                <action behavior="Platform" id="2" name="Set acceleration" sid="4381622359681832" type="player1pin">
                                     <param id="0" name="Acceleration">1500</param>
                                 </action>
                             </actions>
@@ -903,13 +903,13 @@
                                 <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="511468667477887" type="player2pin" />
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="3" name="Set deceleration" sid="2483384138991661" type="Pins">
+                                <action behavior="Platform" id="3" name="Set deceleration" sid="2483384138991661" type="player2pin">
                                     <param id="0" name="Deceleration">10</param>
                                 </action>
-                                <action behavior="Platform" id="1" name="Set max speed" sid="6868473520922071" type="Pins">
+                                <action behavior="Platform" id="1" name="Set max speed" sid="6868473520922071" type="player2pin">
                                     <param id="0" name="Max Speed">10000</param>
                                 </action>
-                                <action behavior="Platform" id="2" name="Set acceleration" sid="2826430610227504" type="Pins">
+                                <action behavior="Platform" id="2" name="Set acceleration" sid="2826430610227504" type="player2pin">
                                     <param id="0" name="Acceleration">30</param>
                                 </action>
                             </actions>
@@ -921,16 +921,16 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
-                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="8487613571755541" type="player2pin" />
+                                <condition behavior="Platform" id="2" name="Is on floor" sid="8487613571755541" type="player2pin" />
                             </conditions>
                             <actions>
-                                <action behavior="Platform" id="3" name="Set deceleration" sid="5557187261658892" type="Pins">
+                                <action behavior="Platform" id="3" name="Set deceleration" sid="5557187261658892" type="player2pin">
                                     <param id="0" name="Deceleration">1000</param>
                                 </action>
-                                <action behavior="Platform" id="1" name="Set max speed" sid="2421109489559321" type="Pins">
+                                <action behavior="Platform" id="1" name="Set max speed" sid="2421109489559321" type="player2pin">
                                     <param id="0" name="Max Speed">300</param>
                                 </action>
-                                <action behavior="Platform" id="2" name="Set acceleration" sid="7401844694888278" type="Pins">
+                                <action behavior="Platform" id="2" name="Set acceleration" sid="7401844694888278" type="player2pin">
                                     <param id="0" name="Acceleration">1500</param>
                                 </action>
                             </actions>

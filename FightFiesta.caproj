@@ -539,9 +539,15 @@
                         <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_001.png" />
                         <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_002.png" />
                         <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.869258" y="0.374" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.904594" y="0.374" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.865724" y="0.374" />
+                        </frame>
                         <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_007.png" />
                         <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_008.png" />
                         <frame duration="1" hotspotX="0.35689" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Punch\Punch_009.png" />
@@ -554,7 +560,9 @@
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_004.png" />
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_005.png" />
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.932394" y="0.534" />
+                        </frame>
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_008.png" />
                         <frame duration="1" hotspotX="0.374648" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Kick\Kick_009.png" />
                     </animation>
@@ -563,9 +571,15 @@
                         <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_001.png" />
                         <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_002.png" />
                         <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_003.png" />
-                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_004.png" />
-                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_005.png" />
-                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.866667" y="0.35" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.898039" y="0.344" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.870588" y="0.354" />
+                        </frame>
                         <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_007.png" />
                         <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_008.png" />
                         <frame duration="1" hotspotX="0.321569" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Punch\Jump Punch_009.png" />
@@ -577,8 +591,12 @@
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_003.png" />
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_004.png" />
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_005.png" />
-                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_006.png" />
-                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_006.png">
+                            <image-point name="Imagepoint 1" x="0.912226" y="0.524" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.912226" y="0.658" />
+                        </frame>
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
@@ -636,9 +654,15 @@
                         <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_001.png" />
                         <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_002.png" />
                         <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_004.png">
+                            <image-point name="hit" x="0.892308" y="0.374" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_005.png">
+                            <image-point name="hit" x="0.919231" y="0.368" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_006.png">
+                            <image-point name="hit" x="0.907692" y="0.38" />
+                        </frame>
                         <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_007.png" />
                         <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_008.png" />
                         <frame duration="1" hotspotX="0.353846" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Punch\Punch_009.png" />
@@ -651,7 +675,9 @@
                         <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_004.png" />
                         <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_005.png" />
                         <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.929379" y="0.576" />
+                        </frame>
                         <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_008.png" />
                         <frame duration="1" hotspotX="0.381356" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Kick\Kick_009.png" />
                     </animation>
@@ -660,9 +686,15 @@
                         <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_001.png" />
                         <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_002.png" />
                         <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_003.png" />
-                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_004.png" />
-                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_005.png" />
-                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.886076" y="0.36" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.911392" y="0.354" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.898734" y="0.366" />
+                        </frame>
                         <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_007.png" />
                         <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_008.png" />
                         <frame duration="1" hotspotX="0.345992" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Punch\Jump Punch_009.png" />
@@ -674,8 +706,12 @@
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_003.png" />
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_004.png" />
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_005.png" />
-                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_006.png" />
-                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_006.png">
+                            <image-point name="Imagepoint 1" x="0.906752" y="0.534" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.884244" y="0.678" />
+                        </frame>
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
@@ -725,9 +761,15 @@
                         <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_001.png" />
                         <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_002.png" />
                         <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.865248" y="0.354" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.911348" y="0.344" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.868794" y="0.356" />
+                        </frame>
                         <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_007.png" />
                         <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_008.png" />
                         <frame duration="1" hotspotX="0.329787" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Punch\Punch_009.png" />
@@ -740,33 +782,45 @@
                         <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_004.png" />
                         <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_005.png" />
                         <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.926761" y="0.536" />
+                        </frame>
                         <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_008.png" />
                         <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpPunch" pingpong="0" repeatcount="1" repeatto="0" sid="9668902510769222" speed="25">
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_000.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_001.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_002.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_003.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_004.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_005.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_007.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_008.png" />
-                        <frame duration="1" hotspotX="0.35493" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_009.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_000.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_001.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_002.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_003.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.87251" y="0.34" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.904382" y="0.33" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.864542" y="0.34" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_007.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_008.png" />
+                        <frame duration="1" hotspotX="0.338645" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Punch\Jump Punch_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="JumpKick" pingpong="0" repeatcount="1" repeatto="0" sid="3592067359170619" speed="25">
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_000.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_001.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_002.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_003.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_004.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_005.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_007.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_008.png" />
-                        <frame duration="1" hotspotX="0.352113" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Kick\Kick_009.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_000.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_001.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_002.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_003.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_004.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_005.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_006.png">
+                            <image-point name="Imagepoint 1" x="0.91875" y="0.52" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.9" y="0.66" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_008.png" />
+                        <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -814,9 +868,15 @@
                         <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_001.png" />
                         <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_002.png" />
                         <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.866412" y="0.348" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.885496" y="0.358" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.874046" y="0.35" />
+                        </frame>
                         <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_007.png" />
                         <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_008.png" />
                         <frame duration="1" hotspotX="0.335878" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Punch\Punch_009.png" />
@@ -829,7 +889,9 @@
                         <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_004.png" />
                         <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_005.png" />
                         <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.913838" y="0.484" />
+                        </frame>
                         <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_008.png" />
                         <frame duration="1" hotspotX="0.355091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Kick\Kick_009.png" />
                     </animation>
@@ -838,9 +900,15 @@
                         <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_001.png" />
                         <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_002.png" />
                         <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_003.png" />
-                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_004.png" />
-                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_005.png" />
-                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.842105" y="0.344" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.870445" y="0.344" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.850202" y="0.34" />
+                        </frame>
                         <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_007.png" />
                         <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_008.png" />
                         <frame duration="1" hotspotX="0.323887" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Punch\Jump Punch_009.png" />
@@ -852,8 +920,12 @@
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_003.png" />
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_004.png" />
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_005.png" />
-                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_006.png" />
-                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_006.png">
+                            <image-point name="Imagepoint 1" x="0.907781" y="0.47" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.893372" y="0.63" />
+                        </frame>
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
@@ -903,9 +975,15 @@
                         <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_001.png" />
                         <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_002.png" />
                         <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_003.png" />
-                        <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_004.png" />
-                        <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_005.png" />
-                        <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_006.png" />
+                        <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.865772" y="0.334" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.90604" y="0.328" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.872483" y="0.338" />
+                        </frame>
                         <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_007.png" />
                         <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_008.png" />
                         <frame duration="1" hotspotX="0.35906" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Punch\Punch_009.png" />
@@ -918,7 +996,9 @@
                         <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_004.png" />
                         <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_005.png" />
                         <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_006.png" />
-                        <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_007.png" />
+                        <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.927614" y="0.518" />
+                        </frame>
                         <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_008.png" />
                         <frame duration="1" hotspotX="0.391421" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Kick\Kick_009.png" />
                     </animation>
@@ -927,9 +1007,15 @@
                         <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_001.png" />
                         <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_002.png" />
                         <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_003.png" />
-                        <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_004.png" />
-                        <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_005.png" />
-                        <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_006.png" />
+                        <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_004.png">
+                            <image-point name="Imagepoint 1" x="0.860902" y="0.324" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_005.png">
+                            <image-point name="Imagepoint 1" x="0.887218" y="0.314" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_006.png">
+                            <image-point name="Imagepoint 1" x="0.860902" y="0.32" />
+                        </frame>
                         <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_007.png" />
                         <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_008.png" />
                         <frame duration="1" hotspotX="0.345865" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Punch\Jump Punch_009.png" />
@@ -941,8 +1027,12 @@
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_003.png" />
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_004.png" />
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_005.png" />
-                        <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_006.png" />
-                        <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_007.png" />
+                        <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_006.png">
+                            <image-point name="Imagepoint 1" x="0.914706" y="0.504" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_007.png">
+                            <image-point name="Imagepoint 1" x="0.9" y="0.65" />
+                        </frame>
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
