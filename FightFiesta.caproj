@@ -1453,6 +1453,20 @@
                 <plugin id="Text" />
             </object-type>
         </object-folder>
+        <object-folder name="ui">
+            <object-type name="player1text" sid="3041260246233537">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="player2text" sid="895770833476764">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="player1stocks" sid="1814371320717496">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="player2stocks" sid="8397235837084709">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
         <object-type name="Keyboard" sid="8019349184073425">
             <plugin id="Keyboard" />
         </object-type>
@@ -1491,6 +1505,7 @@
                 <instance-variable name="player" sid="1541072889687875" type="number" />
                 <instance-variable name="smashMeter" sid="6238530580286978" type="number" />
                 <instance-variable name="percent" sid="367695625412086" type="number" />
+                <instance-variable name="stocks" sid="3208905739885679" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Pin" sid="1591366595326457">

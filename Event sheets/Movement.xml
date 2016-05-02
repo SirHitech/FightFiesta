@@ -937,60 +937,60 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <event-block sid="5054927300174745">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="835838325267741" type="Characters">
+                            <param id="0" name="Instance variable">hitstun</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9255658734812618">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="5477411142391785" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="3" name="Set deceleration" sid="1582875811125432" type="player1pin">
+                                    <param id="0" name="Deceleration">0</param>
+                                </action>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="3238945783644171" type="player1pin">
+                                    <param id="0" name="Max Speed">10000</param>
+                                </action>
+                                <action behavior="Platform" id="2" name="Set acceleration" sid="184083825438704" type="player1pin">
+                                    <param id="0" name="Acceleration">10</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2625067967783235">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3581182392768044" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="3" name="Set deceleration" sid="1834619682910649" type="player2pin">
+                                    <param id="0" name="Deceleration">0</param>
+                                </action>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="8427921364987199" type="player2pin">
+                                    <param id="0" name="Max Speed">10000</param>
+                                </action>
+                                <action behavior="Platform" id="2" name="Set acceleration" sid="2929271368254214" type="player2pin">
+                                    <param id="0" name="Acceleration">10</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="8569438635127189">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="7015392255325161" type="Characters">
-                    <param id="0" name="Instance variable">hitstun</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="7064486007316613">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="3971108733543364" type="Characters">
-                            <param id="0" name="Instance variable">player</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="3" name="Set deceleration" sid="6720895512139863" type="player1pin">
-                            <param id="0" name="Deceleration">0</param>
-                        </action>
-                        <action behavior="Platform" id="1" name="Set max speed" sid="1705393282893319" type="player1pin">
-                            <param id="0" name="Max Speed">10000</param>
-                        </action>
-                        <action behavior="Platform" id="2" name="Set acceleration" sid="5900503948494971" type="player1pin">
-                            <param id="0" name="Acceleration">10</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="7891710511756915">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="7480349708062021" type="Characters">
-                            <param id="0" name="Instance variable">player</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="3" name="Set deceleration" sid="7245532065701512" type="player2pin">
-                            <param id="0" name="Deceleration">0</param>
-                        </action>
-                        <action behavior="Platform" id="1" name="Set max speed" sid="3517958650529063" type="player2pin">
-                            <param id="0" name="Max Speed">10000</param>
-                        </action>
-                        <action behavior="Platform" id="2" name="Set acceleration" sid="1682812174175203" type="player2pin">
-                            <param id="0" name="Acceleration">10</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-group description="" sid="4789566056405626" title="Hitstun Decay">
             <sub-events>
                 <event-block sid="4639003159458657">
@@ -1009,23 +1009,23 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="6762871532977305">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="3629389679031565" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="7828288793976713" type="Characters">
+                            <param id="0" name="Instance variable">hitstun</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="2464691457134946" type="Characters">
+                            <param id="0" name="Instance variable">hitstun</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="6762871532977305">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="3629389679031565" type="System" />
-                <condition id="-7" name="Compare instance variable" sid="7828288793976713" type="Characters">
-                    <param id="0" name="Instance variable">hitstun</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="2464691457134946" type="Characters">
-                    <param id="0" name="Instance variable">hitstun</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

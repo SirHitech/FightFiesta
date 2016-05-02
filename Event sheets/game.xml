@@ -376,5 +376,237 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-group description="" sid="4740317417143045" title="Percent and Stock count">
+            <sub-events>
+                <event-block sid="3079476235334438">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="2092413701880756" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6253228643034797">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3143703897670703" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="6233916691767416" type="player1text">
+                                    <param id="0" name="Text">Characters.percent &amp; &quot;%&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="2333771803882477" type="player1stocks">
+                                    <param id="0" name="Text">&quot;Stocks: &quot; &amp; Characters.stocks</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9669841337759116">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="536594043340836" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="8905390720429465" type="player2text">
+                                    <param id="0" name="Text">Characters.percent &amp; &quot;%&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="1610422704690671" type="player2stocks">
+                                    <param id="0" name="Text">&quot;Stocks: &quot; &amp; Characters.stocks</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="1153963515089458" title="Death">
+            <sub-events>
+                <event-block sid="3141870486416515">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="993297711477448" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="3160616552498468">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="1641849019326984" type="System">
+                                    <param id="0" name="First value">-20</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">Characters.X</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="1765921060491389" type="System">
+                                    <param id="0" name="First value">LayoutWidth + 20</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Second value">Characters.X</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="2107662137763701" type="System">
+                                    <param id="0" name="First value">-20</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">Characters.Y</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="604469723669222" type="System">
+                                    <param id="0" name="First value">LayoutHeight + 20</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Second value">Characters.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8762181371543461">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="1402884368312878" type="System">
+                                            <param id="0" name="First value">Characters.stocks</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Second value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set position to another object" sid="9997366568471978" type="player1pin">
+                                            <param id="0" name="Object">SpawnPlatform</param>
+                                            <param id="1" name="Image point (optional)">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="6719847012576288" type="Characters">
+                                            <param id="0" name="Instance variable">percent</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="9408357782757463" type="Characters">
+                                            <param id="0" name="Instance variable">hitstun</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="8199157799135053" type="Characters">
+                                            <param id="0" name="Instance variable">percent</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="6065590994293563" type="Characters">
+                                            <param id="0" name="Instance variable">stocks</param>
+                                            <param id="1" name="Value">Characters.stocks - 1</param>
+                                        </action>
+                                        <action behavior="Platform" id="8" name="Set vector X" sid="1340864757551066" type="player1pin">
+                                            <param id="0" name="Vector X">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="9" name="Set vector Y" sid="6768984762273291" type="player1pin">
+                                            <param id="0" name="Vector Y">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1889556369198512">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="8425442960607473" type="System">
+                                            <param id="0" name="First value">Characters.stocks</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="663230541860289" type="Characters">
+                                            <param id="0" name="Instance variable">stocks</param>
+                                            <param id="1" name="Value">Characters.stocks - 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8896992318394306">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2417706651953709" type="Characters">
+                            <param id="0" name="Instance variable">player</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="54487148869869">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="6459607525534049" type="System">
+                                    <param id="0" name="First value">-20</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">Characters.X</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="8870562319655242" type="System">
+                                    <param id="0" name="First value">LayoutWidth + 20</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Second value">Characters.X</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="4191790105708917" type="System">
+                                    <param id="0" name="First value">-20</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">Characters.Y</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="17050238268843" type="System">
+                                    <param id="0" name="First value">LayoutHeight + 20</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Second value">Characters.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="5787529887075697">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="1728337069986605" type="System">
+                                            <param id="0" name="First value">Characters.stocks</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Second value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set position to another object" sid="3946893208818249" type="player2pin">
+                                            <param id="0" name="Object">SpawnPlatform2</param>
+                                            <param id="1" name="Image point (optional)">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="215846826898788" type="Characters">
+                                            <param id="0" name="Instance variable">percent</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="930286047776421" type="Characters">
+                                            <param id="0" name="Instance variable">hitstun</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="2092563509878861" type="Characters">
+                                            <param id="0" name="Instance variable">percent</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="9019530236181501" type="Characters">
+                                            <param id="0" name="Instance variable">stocks</param>
+                                            <param id="1" name="Value">Characters.stocks - 1</param>
+                                        </action>
+                                        <action behavior="Platform" id="8" name="Set vector X" sid="452265753087775" type="player2pin">
+                                            <param id="0" name="Vector X">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="9" name="Set vector Y" sid="127394548645531" type="player2pin">
+                                            <param id="0" name="Vector Y">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="7173176634646784">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="6935868184721797" type="System">
+                                            <param id="0" name="First value">Characters.stocks</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="4657263947115486" type="Characters">
+                                            <param id="0" name="Instance variable">stocks</param>
+                                            <param id="1" name="Value">Characters.stocks - 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
