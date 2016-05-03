@@ -113,6 +113,33 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
+                        <comment>P1: Special Prep</comment>
+                        <event-block sid="939640328134132">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="2401896026039933" type="Keyboard">
+                                    <param id="0" name="Key">70 (F)</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="1036927249815402" type="Characters">
+                                    <param id="0" name="Instance variable">smashMeter</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">100</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="3481854650353889" type="Characters">
+                                    <param id="0" name="Animation">&quot;SpecialPrep&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5424148491156515" type="Characters">
+                                    <param id="0" name="Instance variable">attacking</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="7942781560354927" type="Characters">
+                                    <param id="0" name="Instance variable">smashMeter</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
                 <event-block sid="3031825633533003">
@@ -211,9 +238,54 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
+                        <comment>P2: Special Prep</comment>
+                        <event-block sid="5661861550482318">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="3225798493865457" type="Keyboard">
+                                    <param id="0" name="Key">72 (H)</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="6148390666777954" type="Characters">
+                                    <param id="0" name="Instance variable">smashMeter</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">100</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="9776818690169344" type="Characters">
+                                    <param id="0" name="Animation">&quot;SpecialPrep&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6937440445700821" type="Characters">
+                                    <param id="0" name="Instance variable">attacking</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="7872353355127724" type="Characters">
+                                    <param id="0" name="Instance variable">smashMeter</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
+        </event-block>
+        <comment>Special Attack</comment>
+        <event-block sid="8792239604760318">
+            <conditions>
+                <condition id="4" name="On finished" sid="5161617567203064" type="Characters">
+                    <param id="0" name="Animation">&quot;SpecialPrep&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5115092411089826" type="Characters">
+                    <param id="0" name="Animation">&quot;Special&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4115465214590233" type="Characters">
+                    <param id="0" name="Instance variable">attacking</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
         </event-block>
         <comment>End Attack Animations</comment>
         <event-block sid="9382132741944071">
@@ -475,6 +547,66 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <comment>Special</comment>
+                <event-block sid="9085317069088618">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="3485821417851791" type="Characters">
+                            <param id="0" name="Animation">&quot;Special&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8278927591240803">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="2879989109978348" type="Characters">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="7166643109991163" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="9332719335735707" type="Characters">
+                                    <param id="0" name="Object">hitboxSpecial</param>
+                                    <param id="1" name="Layer">5</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="1533042176327913" type="hitboxSpecial">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Value">Characters.player</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3950185472701541">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="5456027519700522" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="8295238958374292" type="Characters">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Number">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="2986405876984031" type="hitboxSpecial">
+                                    <param id="0" name="Object">Characters</param>
+                                    <param id="1" name="Image point (optional)">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7924654858485036">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="6952663015185987" type="Characters">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Number">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="9045652222458651" type="hitboxSpecial" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-block>
         <event-group description="" sid="2729109547637272" title="Hitbox Collision">
@@ -509,16 +641,16 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-10" name="Set value" sid="4974601361785007" type="Characters">
+                                    <param id="0" name="Instance variable">hitstun</param>
+                                    <param id="1" name="Value">Hitboxes.damage * Characters.percent/50</param>
+                                </action>
                                 <action behavior="Platform" id="9" name="Set vector Y" sid="345809901799722" type="player1pin">
-                                    <param id="0" name="Vector Y">-1 * Hitboxes.knockback</param>
+                                    <param id="0" name="Vector Y">(Characters.percent/50) * Hitboxes.knockback * -1 - Hitboxes.knockback/2</param>
                                 </action>
                                 <action id="-11" name="Add to" sid="2066840440147442" type="Characters">
                                     <param id="0" name="Instance variable">percent</param>
                                     <param id="1" name="Value">Hitboxes.damage</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="4974601361785007" type="Characters">
-                                    <param id="0" name="Instance variable">hitstun</param>
-                                    <param id="1" name="Value">Hitboxes.damage * Characters.percent/100</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -528,7 +660,7 @@
                                     </conditions>
                                     <actions>
                                         <action behavior="Platform" id="8" name="Set vector X" sid="2862181844002726" type="player1pin">
-                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback</param>
+                                            <param id="0" name="Vector X">Hitboxes.knockback + (Characters.percent/50) * Hitboxes.knockback</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -538,11 +670,26 @@
                                     </conditions>
                                     <actions>
                                         <action behavior="Platform" id="8" name="Set vector X" sid="4640087398454612" type="player1pin">
-                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback * -1</param>
+                                            <param id="0" name="Vector X">(Characters.percent/50) * Hitboxes.knockback * -1 - Hitboxes.knockback</param>
                                         </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
+                        </event-block>
+                        <event-block sid="7463947920890277">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="338853125425918" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="9968906926408829" type="Characters">
+                                    <param id="0" name="Instance variable">smashMeter</param>
+                                    <param id="1" name="Value">Hitboxes.damage</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -576,16 +723,16 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-10" name="Set value" sid="6829864998951097" type="Characters">
+                                    <param id="0" name="Instance variable">hitstun</param>
+                                    <param id="1" name="Value">Hitboxes.damage * Characters.percent/50</param>
+                                </action>
                                 <action behavior="Platform" id="9" name="Set vector Y" sid="1237240708256576" type="player2pin">
-                                    <param id="0" name="Vector Y">-1 * Hitboxes.knockback</param>
+                                    <param id="0" name="Vector Y">(Characters.percent/50) * Hitboxes.knockback * -1 - Hitboxes.knockback/2</param>
                                 </action>
                                 <action id="-11" name="Add to" sid="8367034100046496" type="Characters">
                                     <param id="0" name="Instance variable">percent</param>
                                     <param id="1" name="Value">Hitboxes.damage</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="6829864998951097" type="Characters">
-                                    <param id="0" name="Instance variable">hitstun</param>
-                                    <param id="1" name="Value">Hitboxes.damage * Characters.percent/100</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -595,7 +742,7 @@
                                     </conditions>
                                     <actions>
                                         <action behavior="Platform" id="8" name="Set vector X" sid="8912063841329642" type="player2pin">
-                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback</param>
+                                            <param id="0" name="Vector X">Hitboxes.knockback + (Characters.percent/50) * Hitboxes.knockback</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -605,11 +752,26 @@
                                     </conditions>
                                     <actions>
                                         <action behavior="Platform" id="8" name="Set vector X" sid="7530921533092778" type="player2pin">
-                                            <param id="0" name="Vector X">(Characters.percent/100) * Hitboxes.knockback * -1</param>
+                                            <param id="0" name="Vector X">(Characters.percent/50) * Hitboxes.knockback * -1 - Hitboxes.knockback</param>
                                         </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
+                        </event-block>
+                        <event-block sid="1637280027291295">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="2306389569368103" type="Characters">
+                                    <param id="0" name="Instance variable">player</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="6776809684866857" type="Characters">
+                                    <param id="0" name="Instance variable">smashMeter</param>
+                                    <param id="1" name="Value">Hitboxes.damage</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>

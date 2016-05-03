@@ -18,6 +18,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
@@ -511,16 +512,16 @@
                         <frame duration="1" hotspotX="0.454545" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Idle\Idle_009.png" />
                     </animation>
                     <animation framecount="10" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="8648768430682867" speed="15">
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_000.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_001.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_002.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_003.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_004.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_005.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_006.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_007.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_008.png" />
-                        <frame duration="1" hotspotX="0.608163" hotspotY="0.966" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_009.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_000.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_001.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_002.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_003.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_004.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_005.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_006.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_007.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_008.png" />
+                        <frame duration="1" hotspotX="0.416327" hotspotY="0.974" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Walking\Walk_009.png" />
                     </animation>
                     <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="2397778287277209" speed="50">
                         <frame duration="1" hotspotX="0.375969" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump\Jump_000.png" />
@@ -599,6 +600,44 @@
                         </frame>
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.294671" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Hillary Clinton\Hillary Clinton Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="482498442055578" speed="18">
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_000.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_001.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_002.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_003.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_004.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_005.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_006.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_007.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_008.png" />
+                        <frame duration="1" hotspotX="0.645094" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Lizard Transform\Lizard Transform_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="8112089120776523" speed="12">
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_000.png" />
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_001.png" />
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_002.png" />
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_003.png">
+                            <image-point name="Imagepoint 1" x="0.780822" y="0.364" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_004.png">
+                            <image-point name="Imagepoint 1" x="0.679061" y="0.186" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_005.png">
+                            <image-point name="Imagepoint 1" x="0.475538" y="0.106" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_006.png">
+                            <image-point name="Imagepoint 1" x="0.841487" y="0.404" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_007.png">
+                            <image-point name="Imagepoint 1" x="0.626223" y="0.754" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_008.png">
+                            <image-point name="Imagepoint 1" x="0.630137" y="0.754" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.528376" hotspotY="0.958" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Hillary\Special\Special_009.png">
+                            <image-point name="Imagepoint 1" x="0.630137" y="0.754" />
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -822,6 +861,44 @@
                         <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.284375" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Characters\Professor Pizza\Professor Pizza Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
+                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="2145902330748" speed="18">
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_000.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_001.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_002.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_003.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_004.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_005.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_006.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_007.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_008.png" />
+                        <frame duration="1" hotspotX="0.389091" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Pizza Cutter Draw\Pizza Cutter Draw_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="3112827358898426" speed="12">
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_000.png" />
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_001.png" />
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_002.png" />
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_003.png">
+                            <image-point name="Imagepoint 1" x="0.315476" y="0.13" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_004.png">
+                            <image-point name="Imagepoint 1" x="0.125" y="0.15" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_005.png">
+                            <image-point name="Imagepoint 1" x="0.324405" y="0.096" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_006.png">
+                            <image-point name="Imagepoint 1" x="0.895833" y="0.648" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_007.png">
+                            <image-point name="Imagepoint 1" x="0.895833" y="0.648" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_008.png">
+                            <image-point name="Imagepoint 1" x="0.895833" y="0.648" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.431548" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Pizza\Special\Special_009.png">
+                            <image-point name="Imagepoint 1" x="0.895833" y="0.648" />
+                        </frame>
+                    </animation>
                 </animation-folder>
             </object-type>
             <object-type name="SoldierCurtis" sid="7648229204296664">
@@ -928,6 +1005,42 @@
                         </frame>
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.26513" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Soldier\Soldier Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="5883421110663058" speed="18">
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_000.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_001.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_002.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_003.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_004.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_005.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_006.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_007.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_008.png" />
+                        <frame duration="1" hotspotX="0.536364" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Knife Draw\Knife Draw_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="9640929715407852" speed="12">
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_000.png" />
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_001.png" />
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_002.png" />
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_003.png">
+                            <image-point name="Imagepoint 1" x="0.756539" y="0.296" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_004.png">
+                            <image-point name="Imagepoint 1" x="0.720322" y="0.644" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_005.png">
+                            <image-point name="Imagepoint 1" x="0.573441" y="0.674" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_006.png" />
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_007.png">
+                            <image-point name="Imagepoint 1" x="0.486922" y="0.61" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_008.png">
+                            <image-point name="Imagepoint 1" x="0.676056" y="0.644" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.426559" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Soldier\Special\Special_009.png">
+                            <image-point name="Imagepoint 1" x="0.851107" y="0.476" />
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1036,6 +1149,44 @@
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.314706" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Skeleton\Skeleton Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
+                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="7693810000880576" speed="18">
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_000.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_001.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_002.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_003.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_004.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_005.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_006.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_007.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_008.png" />
+                        <frame duration="1" hotspotX="0.487261" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Tomahawk Draw\Tomahawk Draw_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="1490992986729144" speed="12">
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_000.png" />
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_001.png" />
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_002.png" />
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_003.png">
+                            <image-point name="Imagepoint 1" x="0.212008" y="0.15" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_004.png">
+                            <image-point name="Imagepoint 1" x="0.0900563" y="0.274" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_005.png">
+                            <image-point name="Imagepoint 1" x="0.88743" y="0.894" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_006.png">
+                            <image-point name="Imagepoint 1" x="0.883677" y="0.9" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_007.png">
+                            <image-point name="Imagepoint 1" x="0.883677" y="0.9" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_008.png">
+                            <image-point name="Imagepoint 1" x="0.88743" y="0.904" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.377111" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITProject\FightFiesta\Fight Fiesta\Special Attacks\Skeleton\Special\Special_009.png">
+                            <image-point name="Imagepoint 1" x="0.883677" y="0.904" />
+                        </frame>
+                    </animation>
                 </animation-folder>
             </object-type>
         </object-folder>
@@ -1083,6 +1234,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2326959093183381" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="hitboxSpecial" sid="1448452547432691">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2499886063172372" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -1466,6 +1625,12 @@
             <object-type name="player2stocks" sid="8397235837084709">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="ProgressBar" sid="2426747237300352">
+                <plugin id="progressbar" />
+            </object-type>
+            <object-type name="ProgressBar2" sid="5451187069201159">
+                <plugin id="progressbar" />
+            </object-type>
         </object-folder>
         <object-type name="Keyboard" sid="8019349184073425">
             <plugin id="Keyboard" />
@@ -1519,6 +1684,7 @@
                 <member>hitboxJumpPunch</member>
                 <member>hitboxKick</member>
                 <member>hitboxPunch</member>
+                <member>hitboxSpecial</member>
             </members>
             <instance-variables>
                 <instance-variable name="damage" sid="7670917973654572" type="number" />

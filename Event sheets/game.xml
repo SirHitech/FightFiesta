@@ -376,7 +376,7 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-group description="" sid="4740317417143045" title="Percent and Stock count">
+        <event-group description="" sid="4740317417143045" title="Percent, Stock, Meter">
             <sub-events>
                 <event-block sid="3079476235334438">
                     <conditions>
@@ -399,6 +399,9 @@
                                 <action id="0" name="Set text" sid="2333771803882477" type="player1stocks">
                                     <param id="0" name="Text">&quot;Stocks: &quot; &amp; Characters.stocks</param>
                                 </action>
+                                <action id="3" name="Set progress" sid="6024570134061353" type="ProgressBar">
+                                    <param id="0" name="Value">Characters.smashMeter</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="9669841337759116">
@@ -415,6 +418,9 @@
                                 </action>
                                 <action id="0" name="Set text" sid="1610422704690671" type="player2stocks">
                                     <param id="0" name="Text">&quot;Stocks: &quot; &amp; Characters.stocks</param>
+                                </action>
+                                <action id="3" name="Set progress" sid="2190252027236225" type="ProgressBar2">
+                                    <param id="0" name="Value">Characters.smashMeter</param>
                                 </action>
                             </actions>
                         </event-block>
