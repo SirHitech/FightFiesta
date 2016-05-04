@@ -21,6 +21,7 @@
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -1267,15 +1268,6 @@
         </object-folder>
         <object-folder name="JG">
             <object-folder name="main">
-                <object-type name="optionControlsJG" sid="8450785352806608">
-                    <plugin id="Text" />
-                </object-type>
-                <object-type name="optionCreditsJG" sid="8777198502130352">
-                    <plugin id="Text" />
-                </object-type>
-                <object-type name="optionPlayJG" sid="5945562439999232">
-                    <plugin id="Text" />
-                </object-type>
                 <object-type name="logoJG" sid="752172859281731">
                     <plugin id="Sprite" />
                     <instance-variables>
@@ -1343,6 +1335,40 @@
                             <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_057.png" />
                             <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_058.png" />
                             <frame duration="1" hotspotX="0.49404" hotspotY="0.551339" original-source="\\hubble\Hubble\Course File Server\2016 Spring Semester\CIT 315 Game Design\Gazsi, Joseph\Logo Spin Animation\Spin Animation_059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="controlsButton" sid="4361847396117472">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4731824329339319" speed="0">
+                            <frame duration="1" hotspotX="0.894737" hotspotY="0.990291" original-source="F:\Game Design\Buttons\Controls.png" />
+                            <frame duration="1" hotspotX="0.903846" hotspotY="1" original-source="F:\Game Design\Buttons\ControlsRoll.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="creditsButton" sid="5037317745329058">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2806327048165984" speed="0">
+                            <frame duration="1" hotspotX="0.894737" hotspotY="1" original-source="F:\Game Design\Buttons\Credits.png" />
+                            <frame duration="1" hotspotX="0.903846" hotspotY="0.989583" original-source="F:\Game Design\Buttons\CreditsRoll.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="playButton" sid="7334422544194324">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4616048614666248" speed="0">
+                            <frame duration="1" hotspotX="0.895522" hotspotY="0.990476" original-source="F:\Game Design\Buttons\Play.png" />
+                            <frame duration="1" hotspotX="0.906015" hotspotY="0.95283" original-source="F:\Game Design\Buttons\PlayRoll.png">
+                                <collision-poly>
+                                    <point x="0.0112782" y="0.0471698" />
+                                    <point x="0.988722" y="0.0471698" />
+                                    <point x="0.988722" y="0.962264" />
+                                    <point x="0.0112782" y="0.962264" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1580,7 +1606,7 @@
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Design\Question-mark.jpg" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1594,6 +1620,88 @@
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="credits">
+                <object-type name="cit" sid="6168591303256598">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="3087282380117488">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637114196111157" speed="5">
+                            <frame duration="1" hotspotX="0.502326" hotspotY="0.503597" original-source="F:\Game Design\cit.png">
+                                <collision-poly>
+                                    <point x="0" y="0.517986" />
+                                    <point x="0" y="0" />
+                                    <point x="0.846512" y="0.330935" />
+                                    <point x="0.767442" y="0.453237" />
+                                    <point x="0.767442" y="0.453237" />
+                                    <point x="0" y="0.935252" />
+                                    <point x="0" y="0.366906" />
+                                    <point x="0" y="0.453237" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="elms" sid="3321292200800441">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="240661403482189">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5501500167013755" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.544554" original-source="F:\Game Design\elms.gif" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="name1" sid="7878606081579273">
+                    <plugin id="Text" />
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="4603518614746225">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
+                </object-type>
+                <object-type name="name2" sid="2112448134714566">
+                    <plugin id="Text" />
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="970695351495705">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
+                </object-type>
+                <object-type name="name3" sid="7377110632793477">
+                    <plugin id="Text" />
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="5877807408169758">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
+                </object-type>
+                <object-type name="name4" sid="8443133985290523">
+                    <plugin id="Text" />
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="9403280448264768">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
+                </object-type>
+                <object-type name="positions" sid="412216840235032">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="finished" sid="9800683330350501" type="boolean" />
+                    </instance-variables>
+                    <behaviors>
+                        <behavior-type name="Bullet" sid="3555845834411808">
+                            <behavior id="Bullet" />
+                        </behavior-type>
+                    </behaviors>
                 </object-type>
             </object-folder>
             <object-type name="flashJG" sid="6402678083795385">
@@ -1646,6 +1754,12 @@
         </object-type>
         <object-type name="Audio" sid="8573098221817227">
             <plugin id="Audio" />
+        </object-type>
+        <object-type name="instructions" sid="816559451349052">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="finished" sid="982692427503197" type="boolean" />
+            </instance-variables>
         </object-type>
     </object-folder>
     <families>

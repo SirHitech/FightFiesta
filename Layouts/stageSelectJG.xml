@@ -241,7 +241,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <name>Field of Flowers</name>
+                        <name>Random</name>
                         <z>0</z>
                         <z_ordered>false</z_ordered>
                     </instance-variables>

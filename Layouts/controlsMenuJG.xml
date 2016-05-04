@@ -95,6 +95,36 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="instructions" uid="2">
+                    <properties>
+                        <text>Do Stuff! Don&apos;t Die! Have Fun!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Kristen ITC,-64,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <finished>true</finished>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>800</x>
+                        <y>500</y>
+                        <z>0</z>
+                        <width>343</width>
+                        <height>273</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

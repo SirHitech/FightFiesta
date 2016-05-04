@@ -93,83 +93,68 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="optionPlayJG" uid="2">
+                <instance type="playButton" uid="81">
                     <properties>
-                        <text>PLAY</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Kristen ITC,-24,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>800</x>
-                        <y>650</y>
+                        <x>900</x>
+                        <y>675</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>50</height>
+                        <width>268</width>
+                        <height>105</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.895522416</hotspotX>
+                        <hotspotY>0.990476191</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="optionControlsJG" uid="7">
+                <instance type="controlsButton" uid="82">
                     <properties>
-                        <text>CONTROLS</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Kristen ITC,-24,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>800</x>
-                        <y>700</y>
+                        <x>900</x>
+                        <y>775</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>50</height>
+                        <width>266</width>
+                        <height>103</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.894736826</hotspotX>
+                        <hotspotY>0.990291238</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="optionCreditsJG" uid="8">
+                <instance type="creditsButton" uid="83">
                     <properties>
-                        <text>CREDITS</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Kristen ITC,-24,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>800</x>
-                        <y>750</y>
+                        <x>900</x>
+                        <y>875</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>50</height>
+                        <width>266</width>
+                        <height>103</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.894736826</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

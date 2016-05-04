@@ -12,7 +12,7 @@
                 <event-block sid="4622364476288006">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="2427688059547491" type="Keyboard">
-                            <param id="0" name="Key">40 (Down arrow)</param>
+                            <param id="0" name="Key">83 (S)</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="7523377674331815" type="System">
                             <param id="0" name="Variable">selectedJG</param>
@@ -43,7 +43,7 @@
                 <event-block sid="6899181818480993">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="7843669923153796" type="Keyboard">
-                            <param id="0" name="Key">38 (Up arrow)</param>
+                            <param id="0" name="Key">87 (W)</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="4085176221642411" type="System">
                             <param id="0" name="Variable">selectedJG</param>
@@ -71,6 +71,68 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="6725163733208266">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="5725249274633124" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2077756325835567" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="4524904871355369" type="logoJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">59</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2752835049115807" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="8585946252654288" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="7730493872637902" type="Audio">
+                            <param id="0" name="Audio file">decline</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1739725616576045">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="8754886208226675" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7704011520669023" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="6820349051463175" type="logoJG">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">59</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1061264653157635" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="9686982086624812" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="1540038719609311" type="Audio">
+                            <param id="0" name="Audio file">decline</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="7439379037212848">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="2390575253012928" type="System">
@@ -80,26 +142,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set font color" sid="1533408145812922" type="optionPlayJG">
-                            <param id="0" name="Color">rgb(237,32,36)</param>
+                        <action id="5" name="Set frame" sid="5909280622961433" type="playButton">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="2" name="Set font face" sid="976206587659667" type="optionPlayJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">1</param>
+                        <action id="5" name="Set frame" sid="9458758745572668" type="controlsButton">
+                            <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="4" name="Set font color" sid="8942637274223876" type="optionControlsJG">
-                            <param id="0" name="Color">rgb(243,112, 48)</param>
-                        </action>
-                        <action id="2" name="Set font face" sid="5707281898670093" type="optionControlsJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">0</param>
-                        </action>
-                        <action id="4" name="Set font color" sid="9901738739039616" type="optionCreditsJG">
-                            <param id="0" name="Color">rgb(243,112, 48)</param>
-                        </action>
-                        <action id="2" name="Set font face" sid="3347361004962873" type="optionCreditsJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">0</param>
+                        <action id="5" name="Set frame" sid="6596558107104421" type="creditsButton">
+                            <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -112,26 +162,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set font color" sid="9566057766340003" type="optionPlayJG">
-                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        <action id="5" name="Set frame" sid="837484370464421" type="playButton">
+                            <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="2" name="Set font face" sid="7111004621953929" type="optionPlayJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">0</param>
+                        <action id="5" name="Set frame" sid="5285929914189365" type="controlsButton">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="4" name="Set font color" sid="8441509349601539" type="optionControlsJG">
-                            <param id="0" name="Color">rgb(237,32,36)</param>
-                        </action>
-                        <action id="2" name="Set font face" sid="3488492708202882" type="optionControlsJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">1</param>
-                        </action>
-                        <action id="4" name="Set font color" sid="3207655140445204" type="optionCreditsJG">
-                            <param id="0" name="Color">rgb(243,112, 48)</param>
-                        </action>
-                        <action id="2" name="Set font face" sid="9791233763336114" type="optionCreditsJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">0</param>
+                        <action id="5" name="Set frame" sid="9280094321881291" type="creditsButton">
+                            <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -144,26 +182,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set font color" sid="6352675080911932" type="optionPlayJG">
-                            <param id="0" name="Color">rgb(243,112, 48)</param>
+                        <action id="5" name="Set frame" sid="4136424431630191" type="playButton">
+                            <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="2" name="Set font face" sid="4120262449655854" type="optionPlayJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">0</param>
+                        <action id="5" name="Set frame" sid="4370247804039005" type="controlsButton">
+                            <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="4" name="Set font color" sid="4496160103460048" type="optionControlsJG">
-                            <param id="0" name="Color">rgb(243,112, 48)</param>
-                        </action>
-                        <action id="2" name="Set font face" sid="4890798007738354" type="optionControlsJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">0</param>
-                        </action>
-                        <action id="4" name="Set font color" sid="83980462932318" type="optionCreditsJG">
-                            <param id="0" name="Color">rgb(237,32,36)</param>
-                        </action>
-                        <action id="2" name="Set font face" sid="5503168596455161" type="optionCreditsJG">
-                            <param id="0" name="Font face">&quot;Kristen ITC&quot;</param>
-                            <param id="1" name="Style">1</param>
+                        <action id="5" name="Set frame" sid="2619783513913177" type="creditsButton">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -175,13 +201,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="4461234127690119" type="optionControlsJG">
+                        <action id="-15" name="Set visible" sid="5307013217737065" type="playButton">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="5573419810696171" type="optionCreditsJG">
+                        <action id="-15" name="Set visible" sid="3628949151608805" type="controlsButton">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="9129345727587909" type="optionPlayJG">
+                        <action id="-15" name="Set visible" sid="1616837588035519" type="creditsButton">
                             <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -189,7 +215,7 @@
                 <event-block sid="4522750313665625">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="4824549278729414" type="Keyboard">
-                            <param id="0" name="Key">13 (Return)</param>
+                            <param id="0" name="Key">69 (E)</param>
                         </condition>
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5934500979582683" type="logoJG">
                             <param id="0" name="Instance variable">selected</param>
@@ -228,6 +254,52 @@
                             <param id="0" name="Opacity">100</param>
                         </action>
                         <action id="-42" name="Signal" sid="5296330735599228" type="System">
+                            <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2419522915979764">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="2061822296105964" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7486075956735139" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="6972879611303286" type="logoJG">
+                            <param id="0" name="Instance variable">selected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3920432196724781" type="flashJG">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9281344930517265" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="9122623465500735" type="flashJG">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9289028353069633" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="8089837047268472" type="flashJG">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5390393212688838" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="4971962694601722" type="flashJG">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="7041024010617649" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="5272561453780506" type="flashJG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-42" name="Signal" sid="5119509460452399" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
                     </actions>
@@ -443,7 +515,7 @@
                         <event-block sid="505974722024636">
                             <conditions>
                                 <condition id="0" name="On key pressed" sid="8776381978528234" type="Keyboard">
-                                    <param id="0" name="Key">13 (Return)</param>
+                                    <param id="0" name="Key">69 (E)</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -501,7 +573,7 @@
                                 <event-block sid="825787656736663">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="5589177033682687" type="Keyboard">
-                                            <param id="0" name="Key">39 (Right arrow)</param>
+                                            <param id="0" name="Key">68 (D)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="4277978613781789" type="player1SelectJG">
                                             <param id="0" name="Instance variable">column</param>
@@ -541,7 +613,7 @@
                                 <event-block sid="450350745108486">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="4714065432717525" type="Keyboard">
-                                            <param id="0" name="Key">37 (Left arrow)</param>
+                                            <param id="0" name="Key">65 (A)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="6929697483370546" type="player1SelectJG">
                                             <param id="0" name="Instance variable">column</param>
@@ -581,7 +653,7 @@
                                 <event-block sid="1084895211250681">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="9843170025608864" type="Keyboard">
-                                            <param id="0" name="Key">40 (Down arrow)</param>
+                                            <param id="0" name="Key">83 (S)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="7903575807163483" type="player1SelectJG">
                                             <param id="0" name="Instance variable">row</param>
@@ -651,7 +723,7 @@
                                 <event-block sid="1467834894452101">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="9002577052550714" type="Keyboard">
-                                            <param id="0" name="Key">38 (Up arrow)</param>
+                                            <param id="0" name="Key">87 (W)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="3647091129557186" type="player1SelectJG">
                                             <param id="0" name="Instance variable">row</param>
@@ -727,7 +799,7 @@
                         <event-block sid="7525376878654804">
                             <conditions>
                                 <condition id="0" name="On key pressed" sid="5672811174632726" type="Keyboard">
-                                    <param id="0" name="Key">32 (Space)</param>
+                                    <param id="0" name="Key">79 (O)</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -785,7 +857,7 @@
                                 <event-block sid="9485115656819092">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="4485163004832758" type="Keyboard">
-                                            <param id="0" name="Key">68 (D)</param>
+                                            <param id="0" name="Key">76 (L)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="5313331176219496" type="player2SelectJG">
                                             <param id="0" name="Instance variable">column</param>
@@ -825,7 +897,7 @@
                                 <event-block sid="9379876921225597">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="9822965474054795" type="Keyboard">
-                                            <param id="0" name="Key">65 (A)</param>
+                                            <param id="0" name="Key">74 (J)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="5158182223567674" type="player2SelectJG">
                                             <param id="0" name="Instance variable">column</param>
@@ -865,7 +937,7 @@
                                 <event-block sid="9475990809483263">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="4141758913030288" type="Keyboard">
-                                            <param id="0" name="Key">83 (S)</param>
+                                            <param id="0" name="Key">75 (K)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="5401960126612096" type="player2SelectJG">
                                             <param id="0" name="Instance variable">row</param>
@@ -935,7 +1007,7 @@
                                 <event-block sid="8526077886738781">
                                     <conditions>
                                         <condition id="0" name="On key pressed" sid="8354307279836832" type="Keyboard">
-                                            <param id="0" name="Key">87 (W)</param>
+                                            <param id="0" name="Key">73 (I)</param>
                                         </condition>
                                         <condition id="-7" name="Compare instance variable" sid="6294978249227082" type="player2SelectJG">
                                             <param id="0" name="Instance variable">row</param>
@@ -1145,7 +1217,7 @@
                 <event-block sid="3374895928033599">
                     <conditions>
                         <condition id="2" name="Key is down" sid="3555917381059848" type="Keyboard">
-                            <param id="0" name="Key">39 (Right arrow)</param>
+                            <param id="0" name="Key">68 (D)</param>
                         </condition>
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4717874348875798" type="stageNameJG">
                             <param id="0" name="Instance variable">selected</param>
@@ -1161,7 +1233,7 @@
                 <event-block sid="423690834338465">
                     <conditions>
                         <condition id="2" name="Key is down" sid="5611067948725259" type="Keyboard">
-                            <param id="0" name="Key">37 (Left arrow)</param>
+                            <param id="0" name="Key">65 (A)</param>
                         </condition>
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2225004767267267" type="stageNameJG">
                             <param id="0" name="Instance variable">selected</param>
@@ -1235,7 +1307,7 @@
                 <event-block sid="1406366258367553">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="7830956995552829" type="Keyboard">
-                            <param id="0" name="Key">13 (Return)</param>
+                            <param id="0" name="Key">69 (E)</param>
                         </condition>
                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5500301161983782" type="stageNameJG">
                             <param id="0" name="Instance variable">selected</param>
@@ -1376,11 +1448,190 @@
                         <condition id="-4" name="Trigger once while true" sid="4788751680780973" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-41" name="Wait for signal" sid="8842848894566646" type="System">
+                        <action id="-9" name="Set value" sid="4860083031140062" type="System">
+                            <param id="0" name="Variable">selectedJG</param>
+                            <param id="1" name="Value">floor(random(0,4))</param>
+                        </action>
+                        <action id="-42" name="Signal" sid="9830870916299954" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="135068467789387" type="System">
-                            <param id="0" name="Layout">stage1</param>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5696647851006284" title="creditsMenuJG">
+            <sub-events>
+                <event-block sid="5004170862176638">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="4253708958024777" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="2413005906173952" type="positions">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="6162993983237744" type="positions">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="2169632242911733" type="name3">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="659304083994712" type="elms">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="1477594184601567" type="elms">
+                            <param id="0" name="Angle">270</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="1903666347358845" type="cit">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="350493840093664" type="cit">
+                            <param id="0" name="Angle">270</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5168059292364517" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="2833753355204072" type="name2">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="414236151617477" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="2030735255866975" type="name1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="3485074769275922" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="4372319517379263" type="name4">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5469550129821116" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="3497023277473204" type="positions">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="9648430380643504" type="elms">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="4842567014177075" type="cit">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8189936829898517" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="3274161715499036" type="name3">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="7427581020919142" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="4632443940913382" type="name2">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9582928125144963" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="4783395517272728" type="name1">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="3179206640218898" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="4839122492065959" type="name4">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="6153854923272518" type="positions">
+                            <param id="0" name="Instance variable">finished</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3775075002046687">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="463666278213549" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="626875574616244" type="positions">
+                            <param id="0" name="Instance variable">finished</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="5421001000833662" type="flashJG">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="1860967157346357" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="2367386973889937" type="flashJG">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5959386135475115" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="2151701758668886" type="flashJG">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4254190907136757" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="8125675105141788" type="flashJG">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="6045089726080286" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="1405144810218864" type="flashJG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="3894221182997664" type="System">
+                            <param id="0" name="Layout">startMenuJG</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="8674099670071277" title="controlsMenuJG">
+            <sub-events>
+                <event-block sid="7024257611638105">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="4106857454671552" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="8321785314796539" type="instructions">
+                            <param id="0" name="Instance variable">finished</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="1438003327888942" type="flashJG">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4112490401181984" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="6818759906235233" type="flashJG">
+                            <param id="0" name="Opacity">40</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8773822327163139" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="8277402772969517" type="flashJG">
+                            <param id="0" name="Opacity">60</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5121198014970499" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="5005523748813284" type="flashJG">
+                            <param id="0" name="Opacity">80</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4395216978250684" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="2762285502837075" type="flashJG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="4905539308499633" type="System">
+                            <param id="0" name="Layout">startMenuJG</param>
                         </action>
                     </actions>
                 </event-block>
