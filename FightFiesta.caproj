@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2tot381hs0hwe</unique-id>
-    <saved-with-version>22700</saved-with-version>
+    <saved-with-version>22100</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
@@ -487,6 +487,35 @@
                         <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
+                    <animation framecount="1" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="2593991340782168" speed="5">
+                        <frame duration="1" hotspotX="0.428571" hotspotY="1" original-source="C:\Users\Student\Desktop\CITproject\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="1931061366330032" speed="5">
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_000.png" />
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_001.png" />
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_002.png" />
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_003.png">
+                            <image-point name="Imagepoint 1" x="0.576699" y="0.162" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_004.png">
+                            <image-point name="Imagepoint 1" x="0.778641" y="0.756" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_005.png">
+                            <image-point name="Imagepoint 1" x="0.768932" y="0.774" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_006.png">
+                            <image-point name="Imagepoint 1" x="0.704854" y="0.202" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_007.png">
+                            <image-point name="Imagepoint 1" x="0.533981" y="0.102" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_008.png">
+                            <image-point name="Imagepoint 1" x="0.392233" y="0.116" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_009.png">
+                            <image-point name="Imagepoint 1" x="0.386408" y="0.11" />
+                        </frame>
+                    </animation>
                 </animation-folder>
             </object-type>
             <object-type name="player1pin" sid="431853492311732">
@@ -754,6 +783,44 @@
                         </frame>
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="3078519511978805" speed="5">
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_000.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_001.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_002.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_003.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_004.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_005.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_006.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_007.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_008.png" />
+                        <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_009.png" />
+                    </animation>
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="6374782563537061" speed="5">
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_000.png" />
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_001.png" />
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_002.png" />
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_003.png">
+                            <image-point name="Imagepoint 1" x="0.250769" y="0.24" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_004.png">
+                            <image-point name="Imagepoint 1" x="0.16" y="0.344" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_005.png">
+                            <image-point name="Imagepoint 1" x="0.113846" y="0.458" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_006.png">
+                            <image-point name="Imagepoint 1" x="0.88" y="0.646" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_007.png">
+                            <image-point name="Imagepoint 1" x="0.881538" y="0.652" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_008.png">
+                            <image-point name="Imagepoint 1" x="0.886154" y="0.648" />
+                        </frame>
+                        <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_009.png">
+                            <image-point name="Imagepoint 1" x="0.884615" y="0.646" />
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
