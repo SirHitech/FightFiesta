@@ -1368,7 +1368,7 @@
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="5717129005417218" type="System">
-                            <param id="0" name="Layout">stage1</param>
+                            <param id="0" name="Layout">FloatingIslands</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1389,7 +1389,7 @@
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="8395008495272096" type="System">
-                            <param id="0" name="Layout">stage1</param>
+                            <param id="0" name="Layout">OvalOffice</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1409,9 +1409,6 @@
                         <action id="-41" name="Wait for signal" sid="5123423223342191" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="9661946464699207" type="System">
-                            <param id="0" name="Layout">stage1</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="5917572067915329">
@@ -1429,9 +1426,6 @@
                     <actions>
                         <action id="-41" name="Wait for signal" sid="4472570690484148" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="1686878163866883" type="System">
-                            <param id="0" name="Layout">stage1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1454,6 +1448,9 @@
                         </action>
                         <action id="-42" name="Signal" sid="9830870916299954" type="System">
                             <param id="0" name="Tag">&quot;flash&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="4249126911914641" type="System">
+                            <param id="0" name="Layout">FloatingIslands</param>
                         </action>
                     </actions>
                 </event-block>

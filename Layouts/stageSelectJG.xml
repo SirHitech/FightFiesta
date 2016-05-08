@@ -133,7 +133,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <name>Lights Off</name>
+                        <name>Floating Islands</name>
                         <z>0</z>
                         <z_ordered>false</z_ordered>
                     </instance-variables>
@@ -160,7 +160,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <name>Fiery Death</name>
+                        <name>Oval Office</name>
                         <z>0</z>
                         <z_ordered>false</z_ordered>
                     </instance-variables>
@@ -170,65 +170,11 @@
                         <x>500</x>
                         <y>449</y>
                         <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
+                        <width>221</width>
+                        <height>221</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="stageOptionsJG" uid="31">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <name>Mossy Grove</name>
-                        <z>0</z>
-                        <z_ordered>false</z_ordered>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>790</x>
-                        <y>447</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="stageOptionsJG" uid="32">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>3</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <name>Water Palace</name>
-                        <z>0</z>
-                        <z_ordered>false</z_ordered>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1102</x>
-                        <y>448</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.502262473</hotspotX>
+                        <hotspotY>0.502262473</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -10,19 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">characterSelectJG</layout>
-        <layout order="1">stageSelectJG</layout>
-        <layout order="4">allCharacters</layout>
-        <layout order="6">stage1</layout>
-        <layout order="10">startMenuJG</layout>
-        <layout order="11">controlsMenuJG</layout>
-        <layout order="12">creditsMenuJG</layout>
-        <event-sheet order="2">menusJG</event-sheet>
-        <event-sheet order="3">Game</event-sheet>
-        <event-sheet order="5">Controls</event-sheet>
-        <event-sheet order="7">Movement</event-sheet>
-        <event-sheet order="8">Attack</event-sheet>
-        <event-sheet order="9">Camera</event-sheet>
+        <layout active="1" order="0">stageSelectJG</layout>
+        <layout order="3">allCharacters</layout>
+        <layout order="5">FloatingIslands</layout>
+        <layout order="7">startMenuJG</layout>
+        <layout order="8">OvalOffice</layout>
+        <event-sheet order="1">menusJG</event-sheet>
+        <event-sheet order="2">Game</event-sheet>
+        <event-sheet order="4">Controls</event-sheet>
+        <event-sheet order="6">Camera</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -39,16 +35,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/characters/" />
         <folder expanded="0" path="object-folder/stage tiles/" />
-        <folder expanded="1" path="object-folder/hitboxes/" />
+        <folder expanded="0" path="object-folder/hitboxes/" />
         <folder expanded="0" path="object-folder/platforms/" />
-        <folder expanded="1" path="object-folder/JG/" />
+        <folder expanded="0" path="object-folder/JG/" />
         <folder expanded="0" path="object-folder/JG/main/" />
         <folder expanded="0" path="object-folder/JG/character/" />
-        <folder expanded="0" path="object-folder/JG/stage/" />
+        <folder expanded="1" path="object-folder/JG/stage/" />
         <folder expanded="0" path="object-folder/JG/credits/" />
         <folder expanded="0" path="object-folder/ui/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -63,6 +59,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/ProfessorPizza/" />
         <folder expanded="1" path="animation-folder/SoldierCurtis/" />
         <folder expanded="1" path="animation-folder/SkeletonJoe/" />
+        <folder expanded="1" path="animation-folder/fallthrough/" />
         <folder expanded="1" path="animation-folder/hitboxPunch/" />
         <folder expanded="1" path="animation-folder/hitboxKick/" />
         <folder expanded="1" path="animation-folder/hitboxJumpPunch/" />
@@ -84,5 +81,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/cit/" />
         <folder expanded="1" path="animation-folder/elms/" />
         <folder expanded="1" path="animation-folder/flashJG/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
     </folders-expanded>
 </c2uistate>

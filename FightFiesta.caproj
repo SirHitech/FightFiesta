@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2tot381hs0hwe</unique-id>
-    <saved-with-version>22100</saved-with-version>
+    <saved-with-version>22700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
@@ -24,6 +24,7 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -487,10 +488,10 @@
                         <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.291022" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
-                    <animation framecount="1" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="2593991340782168" speed="5">
+                    <animation framecount="1" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="2593991340782168" speed="18">
                         <frame duration="1" hotspotX="0.428571" hotspotY="1" original-source="C:\Users\Student\Desktop\CITproject\FightFiesta\Fight Fiesta\Characters\Donald Trump\Donald Trump Animation\Idle\Idle_000.png" />
                     </animation>
-                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="1931061366330032" speed="5">
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="1931061366330032" speed="14">
                         <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_000.png" />
                         <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_001.png" />
                         <frame duration="1" hotspotX="0.279612" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Trump\Trump Special\Special_002.png" />
@@ -784,7 +785,7 @@
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_008.png" />
                         <frame duration="1" hotspotX="0.302251" hotspotY="1" original-source="C:\Users\keith_000\Desktop\CITproject\Animations\Fight Fiesta\Characters\Spaghetti Man\Spaghetti Man Animation\Jump Kick\Jump Kick_009.png" />
                     </animation>
-                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="3078519511978805" speed="5">
+                    <animation framecount="10" loop="0" name="SpecialPrep" pingpong="0" repeatcount="1" repeatto="0" sid="3078519511978805" speed="18">
                         <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_000.png" />
                         <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_001.png" />
                         <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_002.png" />
@@ -796,7 +797,7 @@
                         <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_008.png" />
                         <frame duration="1" hotspotX="0.673774" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Mace Draw\Mace Draw_009.png" />
                     </animation>
-                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="6374782563537061" speed="5">
+                    <animation framecount="10" loop="0" name="Special" pingpong="0" repeatcount="1" repeatto="0" sid="6374782563537061" speed="20">
                         <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_000.png" />
                         <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_001.png" />
                         <frame duration="1" hotspotX="0.483077" hotspotY="1" original-source="C:\Users\Student\Downloads\New Special Attacks + Levels\Spaghetti Man\Spaghetti Special\Special_002.png" />
@@ -1272,6 +1273,19 @@
                 </behaviors>
                 <texture />
             </object-type>
+            <object-type name="fallthrough" sid="2728646711975582">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Jumpthru" sid="1241608461466701">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4145200416990388" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="hitboxes">
             <object-type name="hitboxPunch" sid="6789687895113474">
@@ -1668,11 +1682,9 @@
                         <instance-variable name="z_ordered" sid="1773109725874635" type="boolean" />
                     </instance-variables>
                     <animation-folder>
-                        <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7174990149610455" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7174990149610455" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\keith_000\Desktop\CITProject\Levels\Floating Islands_map.jpg" />
+                            <frame duration="1" hotspotX="0.502262" hotspotY="0.502262" original-source="C:\Users\keith_000\Desktop\CITProject\Levels\Oval Office_map.jpg" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Design\Question-mark.jpg" />
                         </animation>
                     </animation-folder>
@@ -1828,6 +1840,22 @@
                 <instance-variable name="finished" sid="982692427503197" type="boolean" />
             </instance-variables>
         </object-type>
+        <object-type name="Sprite" sid="781096342142065">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5812941552848163" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500267" original-source="C:\Users\keith_000\Desktop\CITProject\Levels\Floating Islands.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="2150409765368832">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9404507776287028" speed="5">
+                    <frame duration="1" hotspotX="0.500147" hotspotY="0.500234" original-source="C:\Users\keith_000\Desktop\CITProject\Levels\Oval Office.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Characters" plugin-id="Sprite" sid="133386739793042">
@@ -1892,9 +1920,10 @@
         <layout>stageSelectJG.xml</layout>
         <layout>controlsMenuJG.xml</layout>
         <layout>creditsMenuJG.xml</layout>
-        <layout>startMenu.xml</layout>
         <layout>allCharacters.xml</layout>
-        <layout>stage1.xml</layout>
+        <layout>FloatingIslands.xml</layout>
+        <layout>OvalOffice.xml</layout>
+        <layout>test.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>menusJG.xml</event-sheet>
